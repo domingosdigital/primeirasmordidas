@@ -8,7 +8,7 @@ export function Hero() {
   return (
     <section className="w-full bg-card py-12 md:py-24 lg:py-32">
       <div className="container mx-auto px-4 md:px-6">
-        <div className="grid items-center gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_500px]">
+        <div className="grid items-center gap-6">
           <div className="flex flex-col justify-center space-y-6 text-center lg:text-left">
             <div className="space-y-4">
               <h1 className="text-4xl font-bold tracking-tighter text-foreground sm:text-5xl xl:text-6xl/none">
@@ -37,18 +37,6 @@ export function Hero() {
                 +12.000 mães já começaram a IA com mais confiança.
               </p>
             </div>
-          </div>
-          <div className="mx-auto flex w-full max-w-[300px] items-center justify-center lg:max-w-full">
-            {appMockup && (
-              <Image
-                src={appMockup.imageUrl}
-                alt={appMockup.description}
-                data-ai-hint={appMockup.imageHint}
-                width={300}
-                height={600}
-                className="overflow-hidden rounded-[2.5rem] border-[10px] border-gray-900 shadow-2xl"
-              />
-            )}
           </div>
         </div>
       </div>
