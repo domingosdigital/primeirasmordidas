@@ -8,15 +8,6 @@ export function FinalCTA() {
           Comece hoje a introdução alimentar do seu bebê com segurança e
           tranquilidade.
         </h2>
-        <Button
-          size="lg"
-          className="w-full max-w-md rounded-full text-xl font-semibold"
-        >
-          <span role="img" aria-label="finger pointing right" className="mr-2">
-            👉
-          </span>
-          Quero Começar Agora
-        </Button>
         <p className="max-w-[600px] text-muted-foreground">
           A fase mais importante da alimentação do seu bebê merece carinho,
           segurança e clareza.
