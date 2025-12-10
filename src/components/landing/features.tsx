@@ -69,7 +69,7 @@ export function Features() {
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
               O que você
               <br />
-              encontra no App:
+              encontra no BabyFood®:
             </h2>
           </div>
         </div>

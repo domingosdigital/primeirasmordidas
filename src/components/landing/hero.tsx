@@ -9,7 +9,7 @@ export function Hero() {
           <div className="flex flex-col justify-center space-y-6 text-center">
             <div className="space-y-4">
               <h1 className="text-4xl font-bold tracking-tighter text-foreground sm:text-5xl">
-                <span className="font-bold">Primeiras Mordidas</span>
+                <span className="font-bold">BabyFood®</span>
               </h1>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-lg">
                 <span className="text-foreground">
@@ -24,7 +24,7 @@ export function Hero() {
             <div className="flex justify-center">
               <Image
                 src="https://i.imgur.com/SjL8pDv.gif"
-                alt="Demonstração do app Primeiras Mordidas"
+                alt="Demonstração do app BabyFood®"
                 width={720}
                 height={405}
                 className="rounded-lg shadow-lg"
