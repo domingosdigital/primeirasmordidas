@@ -22,10 +22,6 @@ export function ValueProp() {
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
             Por que isso funciona tão bem?
           </h2>
-          <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-            Nós filtramos o ruído e entregamos apenas o que importa, de forma
-            organizada, para que você tenha paz e segurança.
-          </p>
         </div>
         <div className="mx-auto mt-12 grid max-w-5xl gap-8 md:grid-cols-2 md:gap-12">
           <div className="space-y-4 rounded-lg border border-red-200/50 bg-red-50/20 p-6 dark:border-destructive/20 dark:bg-destructive/10">
