@@ -11,7 +11,7 @@ import { FAQ } from "@/components/landing/faq";
 export default function Home() {
   return (
     <div className="flex min-h-[100dvh] flex-col">
-      <main className="flex-1">
+      <main className="flex-1 pb-24 md:pb-0">
         <Hero />
         <Features />
         <TargetAudience />
