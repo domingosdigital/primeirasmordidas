@@ -34,15 +34,15 @@ export function Hero() {
                 unoptimized
               />
             </div>
-            <div className="flex w-full flex-col items-center gap-4">
+            <div className="w-full flex flex-col items-center gap-4">
               <Button
                 size="lg"
-                className="w-full max-w-xs rounded-full text-lg font-semibold"
+                className="w-full max-w-xs rounded-full text-lg font-semibold text-white"
               >
                 Assinar agora por R$ 47,00/ano
               </Button>
-              <p className="text-sm text-muted-foreground">
-                +12.000 mães já começaram a IA com mais confiança.
+              <p className="text-sm font-bold text-muted-foreground">
+                Aprovado por mais de 30 mil famílias.
               </p>
             </div>
           </div>
