@@ -1,4 +1,3 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import {
   Footprints,
   ClipboardCheck,
@@ -8,6 +7,7 @@ import {
   TrendingUp,
   ShieldCheck,
   Star,
+  Stethoscope,
 } from "lucide-react";
 import type { LucideProps } from "lucide-react";
 import React from "react";
@@ -53,6 +53,11 @@ const features = [
     title: "Favoritos",
     description: "Salve tudo o que precisar no dia a dia.",
   },
+  {
+    icon: (props: LucideProps) => <Stethoscope {...props} />,
+    title: "Exames Essenciais",
+    description: "Saiba quais exames são importantes.",
+  },
 ];
 
 export function Features() {
@@ -72,18 +77,17 @@ export function Features() {
             </p>
           </div>
         </div>
-        <div className="mx-auto grid max-w-5xl grid-cols-2 gap-4 py-12 md:grid-cols-4 md:gap-6">
+        <div className="mx-auto mt-12 flex max-w-3xl flex-col gap-3">
           {features.map((feature, index) => (
             <div
               key={index}
-              className="group relative flex flex-col items-center justify-center space-y-4 rounded-2xl border bg-background p-6 text-center shadow-sm transition-all hover:scale-105 hover:shadow-lg"
+              className="group flex items-center gap-4 rounded-xl border bg-card p-4 shadow-sm transition-all hover:border-primary/50 hover:shadow-md"
             >
-              <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-primary/10 to-accent/10 opacity-0 transition-opacity group-hover:opacity-100" />
-              <div className="relative z-10 flex h-16 w-16 items-center justify-center rounded-full border bg-background shadow-sm">
-                {feature.icon({ className: "h-8 w-8 text-primary" })}
+              <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-lg border bg-background shadow-sm">
+                {feature.icon({ className: "h-6 w-6 text-primary" })}
               </div>
-              <div className="relative z-10 space-y-2">
-                <h3 className="text-lg font-semibold text-foreground">
+              <div className="text-left">
+                <h3 className="font-semibold text-foreground">
                   {feature.title}
                 </h3>
                 <p className="text-sm text-muted-foreground">
