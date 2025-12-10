@@ -52,7 +52,9 @@ export function Testimonials() {
             O que as mães estão dizendo
           </h2>
           <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-            Depoimentos reais de quem já transformou a introdução alimentar.
+            Depoimentos reais de mães que estão passando
+            <br />
+            ou já passaram pela introdução alimentar
           </p>
         </div>
         <div className="mx-auto max-w-5xl py-12">
