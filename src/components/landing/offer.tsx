@@ -60,14 +60,7 @@ export function Offer() {
                 size="lg"
                 className="w-full rounded-full text-xl font-semibold"
               >
-                <span
-                  role="img"
-                  aria-label="finger pointing right"
-                  className="mr-2"
-                >
-                  👉
-                </span>
-                Garantir Acesso por R$ 47
+                ASSINAR AGORA POR R$ 47,00/ano
               </Button>
             </div>
           </Card>
