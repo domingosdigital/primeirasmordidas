@@ -13,9 +13,9 @@ export function Hero() {
                   Primeiras Mordidas App
                 </span>
                 <br />
-                <span className="text-3xl sm:text-4xl">
+                <span className="text-3xl font-normal sm:text-4xl">
                   Seu guia completo sobre BLW e como oferecer alimentos com
-                  segurança
+                  segurança!
                 </span>
               </h1>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl">
