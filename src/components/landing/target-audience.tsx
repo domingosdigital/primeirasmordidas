@@ -16,10 +16,6 @@ export function TargetAudience() {
           <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
             Para quem é o App:
           </h2>
-          <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-            Se você se identifica com algum destes pontos, nosso app foi feito
-            para você.
-          </p>
         </div>
         <div className="mx-auto mt-8 w-full max-w-md space-y-4">
           {checklistItems.map((item, index) => (
