@@ -7,7 +7,7 @@ export function Hero() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid items-center gap-6">
           <div className="flex flex-col justify-center space-y-6 text-center">
-            <h1 className="text-3xl font-bold tracking-tighter text-primary sm:text-4xl">
+            <h1 className="text-3xl tracking-tighter text-primary sm:text-4xl">
               Introdução Alimentar
               <br />
               prática, segura
