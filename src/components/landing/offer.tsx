@@ -36,7 +36,7 @@ export function Offer() {
                 </p>
                 <p className="font-bold text-foreground">Por apenas 12x de</p>
                 <p className="my-2 text-6xl font-bold text-primary">R$ 4,77</p>
-                <p className="text-sm font-semibold text-muted-foreground">
+                <p className="text-sm font-bold text-foreground">
                   (ou R$ 47,00 à vista por ano)
                 </p>
               </div>
