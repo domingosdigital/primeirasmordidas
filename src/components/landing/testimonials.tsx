@@ -14,31 +14,37 @@ const testimonials = [
   {
     id: "testimonial-ana",
     name: "Ana P.",
+    location: "Curitiba - PR",
     text: "Tinha pavor só de pensar em engasgo. O guia de cortes seguros salvou minhas noites de sono. Agora me sinto confiante de verdade em cada refeição.",
   },
   {
     id: "testimonial-lorena",
     name: "Lorena R.",
+    location: "Salvador - BA",
     text: "Eu ficava perdida com tanta informação na internet. O plano de 14 dias foi a luz no fim do túnel. Simples, direto e meu bebê amou!",
   },
   {
     id: "testimonial-camila",
     name: "Camila S.",
+    location: "São Paulo - SP",
     text: "Trabalho fora e não tinha tempo para planejar nada. O cardápio diário e as receitas rápidas são minha mão na roda. Facilitou demais a rotina.",
   },
   {
     id: "testimonial-julia",
     name: "Júlia F.",
+    location: "Rio de Janeiro - RJ",
     text: "Meu filho era super seletivo no começo. As receitas do app, além de seguras, são muito criativas. Hoje ele come de tudo um pouco. Incrível!",
   },
   {
     id: "testimonial-fernanda",
     name: "Fernanda M.",
+    location: "Belo Horizonte - MG",
     text: "O que eu ia gastar com uma consulta valeu por um ano de acesso. O checklist de alimentos me deu um controle que eu não tinha ideia que precisava.",
   },
   {
     id: "testimonial-patricia",
     name: "Patrícia L.",
+    location: "Porto Alegre - RS",
     text: "A diferença do reflexo de GAG para o engasgo não estava clara para mim. O app explicou de um jeito tão simples que perdi o medo. Recomendo de olhos fechados.",
   },
 ];
@@ -94,6 +100,9 @@ export function Testimonials() {
                           </div>
                           <p className="mt-2 font-semibold text-muted-foreground">
                             {testimonial.name}
+                          </p>
+                          <p className="text-sm text-muted-foreground">
+                            {testimonial.location}
                           </p>
                         </CardContent>
                       </Card>
