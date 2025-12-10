@@ -8,7 +8,7 @@ export function Hero() {
         <div className="grid items-center gap-6">
           <div className="flex flex-col justify-center space-y-6 text-center">
             <div className="space-y-4">
-              <h1 className="text-4xl font-bold tracking-tighter text-foreground sm:text-5xl xl:text-6xl/none">
+              <h1 className="text-4xl font-bold tracking-tighter text-foreground sm:text-5xl">
                 Primeiras Mordidas App - Faça uma introdução alimentar de forma saudável e respeitosa.
               </h1>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl">
