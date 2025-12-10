@@ -34,7 +34,7 @@ export function Offer() {
               >
                 ASSINAR AGORA POR R$ 47,00/ano
               </Button>
-              <div className="mt-3 text-center text-xs text-muted-foreground">
+              <div className="mt-3 text-center text-xs text-muted-foreground font-bold">
                 <p>Pagamento seguro | Acesso imediato</p>
                 <p>Garantia de 7 dias</p>
               </div>
