@@ -14,7 +14,7 @@ export function TargetAudience() {
       <div className="container mx-auto grid items-center justify-center gap-4 px-4 text-center md:px-6">
         <div className="space-y-3">
           <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
-            Para quem é o Primeiras Mordidas?
+            Para quem é o App:
           </h2>
           <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
             Se você se identifica com algum destes pontos, nosso app foi feito

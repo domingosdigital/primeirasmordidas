@@ -13,8 +13,8 @@ export default function Home() {
     <div className="flex min-h-[100dvh] flex-col">
       <main className="flex-1">
         <Hero />
-        <Features />
         <TargetAudience />
+        <Features />
         <Testimonials />
         <ValueProp />
         <Offer />
