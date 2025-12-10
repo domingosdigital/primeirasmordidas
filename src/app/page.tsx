@@ -1,6 +1,5 @@
 import { Features } from "@/components/landing/features";
 import { FinalCTA } from "@/components/landing/final-cta";
-import { Guarantee } from "@/components/landing/guarantee";
 import { Hero } from "@/components/landing/hero";
 import { Offer } from "@/components/landing/offer";
 import { StickyFooter } from "@/components/landing/sticky-footer";
@@ -18,7 +17,6 @@ export default function Home() {
         <Features />
         <ValueProp />
         <Offer />
-        <Guarantee />
         <FinalCTA />
       </main>
       <StickyFooter />
