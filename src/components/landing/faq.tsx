@@ -7,6 +7,11 @@ import {
 
 const faqItems = [
   {
+    question: "As receitas são realmente fáceis e com ingredientes simples?",
+    answer:
+      "Sim! Todas as receitas foram pensadas para a rotina corrida, usando ingredientes fáceis de encontrar em qualquer supermercado. O objetivo é simplificar, e não complicar seu dia a dia.",
+  },
+  {
     question: "O acesso é pagamento único ou mensal?",
     answer:
       "O pagamento é anual. Você paga R$ 47,00 e tem acesso a tudo por 12 meses, incluindo todas as atualizações e novos recursos que forem adicionados.",
@@ -22,9 +27,9 @@ const faqItems = [
       "O aplicativo foi pensado para acompanhar toda a jornada da introdução alimentar, desde os 6 meses (ou quando seu bebê apresentar os sinais de prontidão) até os 2 anos de idade.",
   },
   {
-    question: "Preciso ter conhecimento prévio sobre BLW?",
+    question: "Preciso ter conhecimento prévio sobre introdução alimentar?",
     answer:
-      "Não! O app foi feito para todas as mães, desde as que nunca ouviram falar de BLW até as que já pesquisaram, mas ainda se sentem inseguras. Guiamos você do zero.",
+      "Não! O app foi feito para todas as mães, desde as que estão começando do zero até as que já pesquisaram, mas ainda se sentem inseguras. Guiamos você em cada passo para uma introdução alimentar segura, saudável e prática.",
   },
   {
     question: "E se eu tiver dificuldades ou o bebê não aceitar?",
