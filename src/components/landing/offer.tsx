@@ -17,7 +17,7 @@ export function Offer() {
             <div className="flex flex-col">
               <div className="flex flex-col items-center justify-center p-8 text-center">
                 <p className="font-medium line-through text-muted-foreground">
-                  De <span className="text-lg">R$ 197</span>
+                  De <span className="text-lg">R$ 147,00</span>
                 </p>
                 <p className="font-bold text-foreground">Por apenas 12x de</p>
                 <p className="my-2 text-6xl font-bold text-primary">R$ 4,77</p>
