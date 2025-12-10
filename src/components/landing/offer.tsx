@@ -3,10 +3,10 @@ import { Card } from "@/components/ui/card";
 import { Check } from "lucide-react";
 
 const includedFeatures = [
-  "Dicas úteis e Primeiros Passos",
+  "Dicas úteis",
   "Checklist de Alimentos",
   "Plano de 14 dias",
-  "Cardápio Diário Personalizado",
+  "Cardápio Diário",
   "Receitas por Idade",
   "Guia de Cortes e Segurança",
   "Acompanhe a Evolução do Bebê",
@@ -61,7 +61,7 @@ export function Offer() {
             <div className="p-8">
               <Button
                 size="lg"
-                className="w-full rounded-full text-lg font-bold"
+                className="w-full rounded-full text-base font-bold"
               >
                 ASSINAR AGORA POR R$ 47,00/ano
               </Button>
