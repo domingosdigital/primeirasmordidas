@@ -9,11 +9,10 @@ export function Hero() {
           <div className="flex flex-col justify-center space-y-6 text-center">
             <div className="space-y-4">
               <h1 className="text-4xl font-bold tracking-tighter text-foreground sm:text-5xl xl:text-6xl/none">
-                A introdução alimentar do seu bebê sem medo e sem dúvidas.
+                Primeiras Mordidas App - Faça uma introdução alimentar de forma saudável e respeitosa.
               </h1>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl">
-                Passo a passo simples, seguro e organizado para acompanhar cada
-                fase do seu bebê.
+                Aprenda de forma fácil e segura como fazer introdução alimentar através da abordagem BLW
               </p>
             </div>
             <div className="flex justify-center">
