@@ -31,14 +31,7 @@ export function Hero() {
                 size="lg"
                 className="w-full max-w-xs rounded-full text-lg font-semibold"
               >
-                <span
-                  role="img"
-                  aria-label="finger pointing right"
-                  className="mr-2"
-                >
-                  👉
-                </span>
-                Quero Começar Agora
+                Assinar agora por R$ 47,00/ano
               </Button>
               <p className="text-sm text-muted-foreground">
                 +12.000 mães já começaram a IA com mais confiança.
