@@ -20,7 +20,7 @@ export function ValueProp() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-            Por que o BLW 360
+            Por que o Primeiras Mordidas
             <br />é diferente?
           </h2>
         </div>
@@ -42,7 +42,7 @@ export function ValueProp() {
           </div>
           <div className="flex flex-col space-y-4 rounded-xl border-2 border-primary bg-primary/10 p-8 shadow-lg">
             <h3 className="text-2xl font-bold text-center text-primary">
-              O método BLW 360
+              O método Primeiras Mordidas
             </h3>
             <ul className="flex-1 space-y-4">
               {solutions.map((item, index) => (

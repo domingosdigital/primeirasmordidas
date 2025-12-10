@@ -3,7 +3,7 @@ import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: "BLW 360",
+  title: "Primeiras Mordidas",
   description: "A introdução alimentar do seu bebê sem medo e sem dúvidas.",
 };
 
