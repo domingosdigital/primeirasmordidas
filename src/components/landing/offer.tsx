@@ -24,7 +24,7 @@ export function Offer() {
             <div className="bg-primary p-6 text-center text-primary-foreground">
               <h2 className="text-3xl font-bold text-white">Plano Completo</h2>
               <p className="mt-2 text-lg">
-                A introdução alimentar do seu bebê na palma da sua mão
+                A introdução alimentar do seu bebê na palma da sua mão 📱
               </p>
             </div>
 
