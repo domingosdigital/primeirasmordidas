@@ -43,7 +43,7 @@ export function ValueProp() {
           </div>
           <div className="flex flex-col space-y-4 rounded-xl border-2 border-primary bg-primary/10 p-8 shadow-lg">
             <h3 className="text-2xl font-bold text-center text-primary">
-              O método Primeiras Mordidas
+              Com o App Primeiras Mordidas
             </h3>
             <ul className="flex-1 space-y-4">
               {solutions.map((item, index) => (
