@@ -15,14 +15,32 @@
     {
       "id": "testimonial-lorena",
       "description": "Circular profile picture of Lorena R.",
-      "imageUrl": "https://images.unsplash.com/photo-1711645169736-53327e726205?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3b21hbiUyMHNtaWxpbmd8ZW58MHx8fHwxNzY1MzE0MDgyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "woman smiling"
+      "imageUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2NTMyNTc1NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
     },
     {
       "id": "testimonial-camila",
       "description": "Circular profile picture of Camila S.",
       "imageUrl": "https://images.unsplash.com/photo-1583710457367-47de0ea21fef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtb3RoZXIlMjBiYWJ5fGVufDB8fHx8MTc2NTM3NjgyNHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "mother baby"
+    },
+    {
+      "id": "testimonial-julia",
+      "description": "Circular profile picture of Júlia F.",
+      "imageUrl": "https://images.unsplash.com/photo-1554151228-14d9def656e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2NTMyNTc1NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "testimonial-fernanda",
+      "description": "Circular profile picture of Fernanda M.",
+      "imageUrl": "https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjY1ODQxODd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "testimonial-patricia",
+      "description": "Circular profile picture of Patrícia L.",
+      "imageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMnx8cG9ydHJhaXR8ZW58MHx8fHwxNzY2NTg0MjM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mother smiling"
     }
   ]
 }
