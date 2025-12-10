@@ -10,8 +10,8 @@ export function Hero() {
             <h1 className="text-3xl tracking-tighter text-primary sm:text-4xl">
               Introdução Alimentar
               <br />
-              prática, segura
-              <br />e sem enrolação
+              <span className="font-bold">prática, segura</span>
+              <br />e <span className="font-bold">sem enrolação</span>
             </h1>
             <div className="space-y-4">
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-lg">
