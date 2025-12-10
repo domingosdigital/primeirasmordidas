@@ -3,7 +3,7 @@ import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: "BLW Sem Medo",
+  title: "BLW Definitivo",
   description: "A introdução alimentar do seu bebê sem medo e sem dúvidas.",
 };
 
