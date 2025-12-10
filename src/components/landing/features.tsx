@@ -67,9 +67,9 @@ export function Features() {
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
             <h2 className="text-3xl font-bold tracking-tighter text-primary sm:text-5xl">
-              O que você
+              O que você encontra
               <br />
-              encontra no BabyFood®:
+              no App BabyFood®:
             </h2>
           </div>
         </div>
