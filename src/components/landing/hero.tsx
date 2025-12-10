@@ -7,6 +7,11 @@ export function Hero() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid items-center gap-6">
           <div className="flex flex-col justify-center space-y-6 text-center">
+            <h1 className="text-3xl font-bold tracking-tighter text-primary sm:text-4xl">
+              Introdução Alimentar prática,
+              <br />
+              segura e sem enrolação
+            </h1>
             <div className="space-y-4">
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-lg">
                 <span className="text-foreground">
