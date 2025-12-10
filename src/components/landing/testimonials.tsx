@@ -57,7 +57,7 @@ export function Testimonials() {
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
             O que mães do Brasil
             <br />
-            inteiro estão falando
+            inteiro estão falando:
           </h2>
         </div>
         <div className="mx-auto max-w-5xl py-12">
