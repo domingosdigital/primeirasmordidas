@@ -1,10 +1,10 @@
 import {
-  Footprints,
-  ClipboardCheck,
-  CalendarDays,
-  Lightbulb,
+  UtensilsCrossed,
   BookOpenText,
-  TrendingUp,
+  Lightbulb,
+  CalendarDays,
+  ClipboardCheck,
+  Footprints,
   ShieldCheck,
   Star,
   Stethoscope,
@@ -14,49 +14,49 @@ import React from "react";
 
 const features = [
   {
-    icon: (props: LucideProps) => <Footprints {...props} />,
-    title: "Dicas úteis",
-    description: "Tudo que a mãe precisa saber antes de começar.",
-  },
-  {
-    icon: (props: LucideProps) => <ClipboardCheck {...props} />,
-    title: "Checklist de Alimentos",
-    description: "Veja o que já ofereceu e o que falta.",
-  },
-  {
-    icon: (props: LucideProps) => <CalendarDays {...props} />,
-    title: "Plano de 14 Dias",
-    description: "Sugestões prontas para facilitar o início.",
-  },
-  {
-    icon: (props: LucideProps) => <Lightbulb {...props} />,
-    title: "Cardápio Diário",
-    description: "Cardápio automático para não perder tempo.",
+    icon: (props: LucideProps) => <UtensilsCrossed {...props} />,
+    title: "+150 Receitas Simples e Nutritivas",
+    description: "Refeições rápidas e seguras para cada fase.",
   },
   {
     icon: (props: LucideProps) => <BookOpenText {...props} />,
     title: "Receitas por Idade",
-    description: "Refeições rápidas e seguras para cada fase.",
+    description: "Encontre facilmente a receita ideal para a fase do seu bebê.",
   },
   {
-    icon: (props: LucideProps) => <TrendingUp {...props} />,
-    title: "Evolução do Bebê",
-    description: "Acompanhe cada etapa com clareza.",
+    icon: (props: LucideProps) => <Lightbulb {...props} />,
+    title: "Cardápio Diário",
+    description: "Sugestões automáticas para não perder tempo pensando no que fazer.",
+  },
+  {
+    icon: (props: LucideProps) => <CalendarDays {...props} />,
+    title: "Plano de 14 Dias",
+    description: "Um passo a passo pronto para facilitar o início da jornada.",
+  },
+  {
+    icon: (props: LucideProps) => <ClipboardCheck {...props} />,
+    title: "Checklist de Alimentos",
+    description: "Acompanhe o que já ofereceu e o que ainda falta.",
+  },
+  {
+    icon: (props: LucideProps) => <Footprints {...props} />,
+    title: "Dicas Úteis",
+    description: "Tudo que você precisa saber antes de começar, de forma clara.",
   },
   {
     icon: (props: LucideProps) => <ShieldCheck {...props} />,
     title: "Guia de Segurança",
-    description: "Cortes seguros e como evitar acidentes.",
+    description: "Aprenda os cortes seguros e como agir em emergências.",
   },
   {
     icon: (props: LucideProps) => <Star {...props} />,
     title: "Favoritos",
-    description: "Salve tudo o que precisar no dia a dia.",
+    description: "Salve as receitas e dicas que mais gosta para consultar sempre.",
   },
   {
     icon: (props: LucideProps) => <Stethoscope {...props} />,
     title: "Exames Essenciais",
-    description: "Saiba quais exames são importantes.",
+    description: "Saiba quais são os exames importantes nesta fase.",
   },
 ];
 
