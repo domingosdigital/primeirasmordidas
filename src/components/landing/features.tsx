@@ -15,7 +15,7 @@ import React from "react";
 const features = [
   {
     icon: (props: LucideProps) => <Footprints {...props} />,
-    title: "Primeiros Passos",
+    title: "Dicas úteis",
     description: "Tudo que a mãe precisa saber antes de começar.",
   },
   {

@@ -3,7 +3,7 @@ import { Card } from "@/components/ui/card";
 import { Check } from "lucide-react";
 
 const includedFeatures = [
-  "Primeiros Passos",
+  "Dicas úteis",
   "Checklist",
   "Plano de 14 dias",
   "Cardápio Diário",
