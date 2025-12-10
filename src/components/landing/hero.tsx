@@ -13,7 +13,10 @@ export function Hero() {
                   Primeiras Mordidas App
                 </span>
                 <br />
-                Faça uma introdução alimentar de forma saudável e respeitosa.
+                <span className="text-3xl sm:text-4xl">
+                  Seu guia completo sobre BLW e como oferecer alimentos com
+                  segurança
+                </span>
               </h1>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl">
                 Perfeito para mães que querem praticidade, segurança e
