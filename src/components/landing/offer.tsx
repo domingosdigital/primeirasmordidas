@@ -9,7 +9,7 @@ export function Offer() {
           <Card className="overflow-hidden rounded-2xl border-2 border-primary shadow-2xl shadow-primary/20">
             <div className="bg-primary p-6 text-center text-primary-foreground">
               <h2 className="text-3xl font-bold text-white">Plano Completo</h2>
-              <p className="mt-2 text-lg">
+              <p className="mt-2 text-lg font-bold">
                 A introdução alimentar do seu bebê na palma da sua mão 📱
               </p>
             </div>
