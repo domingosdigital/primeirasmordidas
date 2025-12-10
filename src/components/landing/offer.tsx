@@ -3,7 +3,7 @@ import { Card } from "@/components/ui/card";
 
 export function Offer() {
   return (
-    <section className="w-full bg-card py-12 md:py-24 lg:py-32">
+    <section className="w-full bg-card pb-12 md:pb-24 lg:pb-32">
       <div className="container mx-auto px-4 md:px-6">
         <div className="mx-auto max-w-2xl">
           <Card className="overflow-hidden rounded-2xl border-2 border-primary shadow-2xl shadow-primary/20">
