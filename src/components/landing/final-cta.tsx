@@ -4,7 +4,7 @@ export function FinalCTA() {
   return (
     <section className="w-full bg-card py-12 md:py-24 lg:py-32">
       <div className="container mx-auto flex flex-col items-center gap-6 px-4 text-center md:px-6">
-        <h2 className="tracking-tighter">
+        <h2 className="text-4xl font-bold tracking-tighter sm:text-5xl">
           A <span className="font-bold">introdução alimentar</span>
           <br />
           do seu bebê com <span className="font-bold">segurança</span>
