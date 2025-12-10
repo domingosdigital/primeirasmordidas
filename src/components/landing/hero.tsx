@@ -9,7 +9,7 @@ export function Hero() {
           <div className="flex flex-col justify-center space-y-6 text-center">
             <div className="space-y-4">
               <h1 className="text-4xl font-bold tracking-tighter text-foreground sm:text-5xl">
-                <span className="font-bold">BLW Definitivo</span>
+                <span className="font-bold">BLW 360</span>
                 <br />
                 <span className="text-3xl font-normal sm:text-4xl">
                   Introdução alimentar prática, segura e sem enrolação!
@@ -23,7 +23,7 @@ export function Hero() {
             <div className="flex justify-center">
               <Image
                 src="https://i.imgur.com/SjL8pDv.gif"
-                alt="Demonstração do app BLW Definitivo"
+                alt="Demonstração do app BLW 360"
                 width={720}
                 height={405}
                 className="rounded-lg shadow-lg"
