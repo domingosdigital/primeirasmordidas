@@ -31,7 +31,6 @@ export function Offer() {
                 <div className="mt-8 space-y-4 text-muted-foreground">
                   <div className="line-through">
                     <p>Nutricionista → R$ 200 a R$ 350</p>
-                    <p>Cursos de IA → R$ 197 a R$ 497</p>
                   </div>
                   <div className="mt-6">
                     <p className="text-xl font-semibold text-foreground">
