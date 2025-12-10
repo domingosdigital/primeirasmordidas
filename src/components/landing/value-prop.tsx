@@ -10,6 +10,7 @@ const problems = [
 const solutions = [
   "+150 receitas simples para todas as refeições.",
   "Guias, dicas e checklists para uma introdução alimentar segura.",
+  "Plano de 14 dias para iniciar a jornada com o pé direito.",
   "Design fácil e intuitivo, pensado para a rotina corrida.",
   "Rotina prática com cardápios e receitas que funcionam.",
   "Tudo organizado em um só lugar, na palma da sua mão.",
