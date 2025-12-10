@@ -6,6 +6,7 @@ import { StickyFooter } from "@/components/landing/sticky-footer";
 import { TargetAudience } from "@/components/landing/target-audience";
 import { Testimonials } from "@/components/landing/testimonials";
 import { ValueProp } from "@/components/landing/value-prop";
+import { FAQ } from "@/components/landing/faq";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <Features />
         <ValueProp />
         <Offer />
+        <FAQ />
         <FinalCTA />
       </main>
       <StickyFooter />
