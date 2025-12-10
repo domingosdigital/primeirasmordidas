@@ -9,6 +9,7 @@ const problems = [
 
 const solutions = [
   "+150 receitas simples para todas as refeições.",
+  "Guias, dicas e checklists para uma introdução alimentar segura.",
   "Design fácil e intuitivo, pensado para a rotina corrida.",
   "Rotina prática com cardápios e receitas que funcionam.",
   "Tudo organizado em um só lugar, na palma da sua mão.",
