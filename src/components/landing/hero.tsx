@@ -15,9 +15,11 @@ export function Hero() {
                   Introdução alimentar prática, segura e sem enrolação!
                 </span>
               </h1>
-              <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl font-bold">
-                Seu guia completo sobre BLW e como oferecer alimentos com
-                segurança!
+              <p className="mx-auto max-w-[600px] text-muted-foreground md:text-lg">
+                Receitas rápidas, cardápios saudáveis e orientações seguras -{" "}
+                <span className="font-bold text-foreground">
+                  tudo reunido em um único app para facilitar seu dia a dia.
+                </span>
               </p>
             </div>
             <div className="flex justify-center">
