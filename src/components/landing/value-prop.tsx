@@ -8,7 +8,7 @@ const problems = [
 ];
 
 const solutions = [
-  "Método simples com um passo a passo claro para cada fase.",
+  "+150 receitas simples para todas as refeições.",
   "Design fácil e intuitivo, pensado para a rotina corrida.",
   "Rotina prática com cardápios e receitas que funcionam.",
   "Tudo organizado em um só lugar, na palma da sua mão.",
