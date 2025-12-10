@@ -43,7 +43,7 @@ export function Offer() {
 
               <div className="border-t bg-accent/20 p-8">
                 <h3 className="mb-4 text-lg font-semibold text-foreground text-center">
-                  Você terá acesso imediato a:
+                  ACESSO IMEDIÁTO:
                 </h3>
                 <ul className="space-y-3">
                   {includedFeatures.map((feature, index) => (
