@@ -48,7 +48,7 @@ export function Testimonials() {
     <section className="w-full pt-20 md:py-24">
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
             Depoimentos reais de mães
             <br />
             que estão passando ou já
