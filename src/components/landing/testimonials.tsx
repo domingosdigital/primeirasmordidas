@@ -51,7 +51,7 @@ export function Testimonials() {
                       data-ai-hint={image.imageHint}
                       width={80}
                       height={80}
-                      className="mb-4 rounded-full object-cover"
+                      className="mb-4 rounded-full object-cover aspect-square"
                     />
                   )}
                   <p className="mb-4 flex-1 text-lg font-medium text-foreground">
