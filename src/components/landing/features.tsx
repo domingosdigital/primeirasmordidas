@@ -15,7 +15,7 @@ import React from "react";
 const features = [
   {
     icon: (props: LucideProps) => <UtensilsCrossed {...props} />,
-    title: "+150 Receitas Simples e Nutritivas",
+    title: "+150 Receitas simples, nutritivas e organizadas",
     description: "Refeições rápidas e seguras para cada fase.",
   },
   {
