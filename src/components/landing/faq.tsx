@@ -41,9 +41,6 @@ export function FAQ() {
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
             Perguntas Frequentes
           </h2>
-          <p className="max-w-[600px] text-muted-foreground md:text-lg">
-            Ainda tem dúvidas? A gente responde as principais aqui.
-          </p>
         </div>
         <div className="mt-8">
           <Accordion type="single" collapsible className="w-full">
