@@ -9,7 +9,10 @@ export function Hero() {
           <div className="flex flex-col justify-center space-y-6 text-center">
             <div className="space-y-4">
               <h1 className="text-4xl font-bold tracking-tighter text-foreground sm:text-5xl">
-                <span className="font-bold text-primary">BabyFood®</span>
+                A introdução alimentar
+                <br />
+                do seu bebê sem medo
+                <br />e sem dúvidas.
               </h1>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-lg">
                 <span className="text-foreground">
