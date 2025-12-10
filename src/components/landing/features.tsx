@@ -70,24 +70,25 @@ export function Features() {
             </p>
           </div>
         </div>
-        <div className="mx-auto grid max-w-5xl items-start gap-8 py-12 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        <div className="mx-auto grid max-w-5xl grid-cols-2 gap-6 py-12 md:grid-cols-4 md:gap-8">
           {features.map((feature, index) => (
-            <Card
+            <div
               key={index}
-              className="rounded-2xl shadow-sm transition-shadow duration-300 hover:shadow-lg"
+              className="group relative flex flex-col items-center justify-center space-y-4 rounded-2xl border bg-background p-6 text-center shadow-sm transition-all hover:scale-105 hover:shadow-lg"
             >
-              <CardHeader className="flex flex-col items-center gap-4 pb-4">
-                {feature.icon({ className: "h-10 w-10 text-accent-foreground opacity-50" })}
-                <CardTitle className="text-center text-lg">
+              <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-primary/10 to-accent/10 opacity-0 transition-opacity group-hover:opacity-100" />
+              <div className="relative z-10 flex h-16 w-16 items-center justify-center rounded-full border bg-background shadow-sm">
+                {feature.icon({ className: "h-8 w-8 text-primary" })}
+              </div>
+              <div className="relative z-10 space-y-2">
+                <h3 className="text-lg font-semibold text-foreground">
                   {feature.title}
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-center text-sm text-muted-foreground">
+                </h3>
+                <p className="text-sm text-muted-foreground">
                   {feature.description}
                 </p>
-              </CardContent>
-            </Card>
+              </div>
+            </div>
           ))}
         </div>
       </div>
