@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card } from "@/components/ui/card";
 import { Check } from "lucide-react";
 
 const includedFeatures = [
@@ -29,7 +29,7 @@ export function Offer() {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2">
+            <div className="flex flex-col">
               <div className="flex flex-col items-center justify-center p-8 text-center">
                 <p className="font-medium line-through text-muted-foreground">
                   De <span className="text-lg">R$ 197</span>
@@ -41,12 +41,12 @@ export function Offer() {
                 </p>
               </div>
 
-              <div className="p-8">
-                <h3 className="mb-4 text-lg font-semibold text-foreground">
+              <div className="border-t bg-accent/20 p-8">
+                <h3 className="mb-4 text-lg font-semibold text-foreground text-center">
                   Você terá acesso imediato a:
                 </h3>
                 <ul className="space-y-3">
-                  {includedFeatures.slice(0, 5).map((feature, index) => (
+                  {includedFeatures.map((feature, index) => (
                     <li key={index} className="flex items-center gap-3">
                       <Check className="h-5 w-5 flex-shrink-0 text-primary" />
                       <span className="text-sm text-foreground">
@@ -56,20 +56,6 @@ export function Offer() {
                   ))}
                 </ul>
               </div>
-            </div>
-
-            <div className="border-t bg-accent/20 p-8">
-              <h3 className="mb-4 text-center text-lg font-bold text-foreground">
-                E muito mais!
-              </h3>
-              <ul className="grid grid-cols-2 gap-x-6 gap-y-3">
-                {includedFeatures.slice(5).map((feature, index) => (
-                  <li key={index} className="flex items-center gap-3">
-                    <Check className="h-5 w-5 flex-shrink-0 text-primary" />
-                    <span className="text-sm text-foreground">{feature}</span>
-                  </li>
-                ))}
-              </ul>
             </div>
 
             <div className="p-8">
