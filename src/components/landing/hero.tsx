@@ -17,12 +17,13 @@ export function Hero() {
             </div>
             <div className="flex justify-center">
               <Image
-                src="https://i.imgur.com/zsj2O9I.png"
-                alt="Bebê feliz comendo"
+                src="https://i.imgur.com/YC5T1JP.gif"
+                alt="Demonstração do app Primeiras Mordidas"
                 width={720}
                 height={405}
                 className="rounded-lg shadow-lg"
-                data-ai-hint="baby eating"
+                data-ai-hint="app mockup"
+                unoptimized
               />
             </div>
             <div className="flex w-full flex-col items-center gap-4">
