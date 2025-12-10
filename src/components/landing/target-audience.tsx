@@ -1,11 +1,11 @@
 import { CheckCircle2 } from "lucide-react";
 
 const checklistItems = [
-  "Para mães inseguras sobre como começar",
-  "Para quem tem medo de engasgo",
-  "Para quem quer orientação simples e prática",
-  "Para quem se perdeu com tanta informação contraditória",
-  "Para quem deseja segurança e clareza todos os dias",
+  "Para quem quer receitas rápidas e saudáveis para o bebê.",
+  "Para quem deseja facilitar a rotina sem perder segurança.",
+  "Para quem quer saber o que oferecer em cada fase, sem confusão.",
+  "Para quem busca alimentação mais natural e nutritiva desde o início.",
+  "Para quem quer mais clareza, praticidade e tranquilidade no dia a dia.",
 ];
 
 export function TargetAudience() {
