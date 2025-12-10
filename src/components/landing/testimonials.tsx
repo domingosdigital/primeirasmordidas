@@ -33,7 +33,7 @@ export function Testimonials() {
             Depoimentos reais de quem já transformou a introdução alimentar.
           </p>
         </div>
-        <div className="mx-auto grid max-w-5xl items-start gap-6 py-12 sm:grid-cols-1 md:grid-cols-3">
+        <div className="mx-auto grid max-w-5xl items-start gap-4 py-12 sm:grid-cols-1 md:grid-cols-3">
           {testimonials.map((testimonial) => {
             const image = PlaceHolderImages.find(
               (img) => img.id === testimonial.id
@@ -41,7 +41,7 @@ export function Testimonials() {
             return (
               <Card
                 key={testimonial.name}
-                className="rounded-2xl shadow-sm transition-transform"
+                className="rounded-2xl shadow-none transition-transform"
               >
                 <CardContent className="flex flex-col items-center justify-center p-8 text-center">
                   {image && (
