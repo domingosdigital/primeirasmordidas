@@ -10,13 +10,12 @@ export function Hero() {
             <div className="space-y-4">
               <h1 className="text-4xl font-bold tracking-tighter text-foreground sm:text-5xl">
                 <span className="font-bold">Primeiras Mordidas</span>
-                <br />
-                <span className="text-3xl font-normal sm:text-4xl">
-                  Introdução alimentar prática, segura e sem enrolação!
-                </span>
               </h1>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-lg">
-                Receitas rápidas, cardápios saudáveis e orientações seguras -{" "}
+                <span className="text-foreground">
+                  Receitas rápidas, cardápios saudáveis e orientações seguras
+                </span>{" "}
+                -{" "}
                 <span className="font-bold text-foreground">
                   tudo reunido em um único app para facilitar seu dia a dia.
                 </span>
