@@ -25,7 +25,7 @@ export function Hero() {
             </div>
             <div className="flex justify-center">
               <Image
-                src="https://i.imgur.com/YC5T1JP.gif"
+                src="https://i.imgur.com/SjL8pDv.gif"
                 alt="Demonstração do app Primeiras Mordidas"
                 width={720}
                 height={405}
