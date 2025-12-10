@@ -6,7 +6,7 @@ const includedFeatures = [
   "Primeiros Passos",
   "Checklist",
   "Plano de 14 dias",
-  "Sugestões diárias",
+  "Cardápio Diário",
   "Receitas",
   "Guia de segurança",
   "Favoritos",

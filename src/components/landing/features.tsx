@@ -30,7 +30,7 @@ const features = [
   },
   {
     icon: (props: LucideProps) => <Lightbulb {...props} />,
-    title: "Sugestão do Dia",
+    title: "Cardápio Diário",
     description: "Cardápio automático para não perder tempo.",
   },
   {
@@ -62,7 +62,8 @@ export function Features() {
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-              O que você <br />
+              O que você
+              <br />
               encontra no App
             </h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
