@@ -58,7 +58,7 @@ export function Offer() {
             <div className="p-8 border-t bg-card">
               <Button
                 size="lg"
-                className="w-full rounded-full text-xl font-semibold"
+                className="w-full rounded-full text-lg font-semibold"
               >
                 ASSINAR AGORA POR R$ 47,00/ano
               </Button>
