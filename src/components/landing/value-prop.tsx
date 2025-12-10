@@ -10,7 +10,7 @@ const problems = [
 const solutions = [
   "+150 receitas simples para todas as refeições.",
   "Guias, dicas e checklists para uma introdução alimentar segura.",
-  "Plano de 14 dias para iniciar a jornada com o pé direito.",
+  "Atualizações mensais com novas receitas e recursos.",
   "Design fácil e intuitivo, pensado para a rotina corrida.",
   "Rotina prática com cardápios e receitas que funcionam.",
   "Tudo organizado em um só lugar, na palma da sua mão.",
@@ -20,7 +20,7 @@ export function ValueProp() {
   return (
     <section className="w-full bg-card pt-8 md:pt-12 pb-8 md:pb-12">
       <div className="container mx-auto px-4 md:px-6">
-        <div className="flex flex-col items-center justify-center space-y-4 text-center">
+        <div className="flex flex-col items-center justify-center space-y-4 text-center mb-8">
           <h2 className="text-3xl font-bold tracking-tighter text-primary sm:text-4xl md:text-5xl">
             Por que o BabyFood®
             <br />
