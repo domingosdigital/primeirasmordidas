@@ -40,7 +40,7 @@ export function Hero() {
                 Assinar agora por R$ 47,00/ano
               </Button>
               <p className="text-sm font-bold text-muted-foreground">
-                Aprovado por mais de 30 mil famílias.
+                Aprovado por mais de 50 mil famílias.
               </p>
             </div>
           </div>
