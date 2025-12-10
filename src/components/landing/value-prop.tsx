@@ -1,17 +1,17 @@
 import { Check, X } from "lucide-react";
 
 const problems = [
-  "Internet lotada de informações contraditórias",
-  "Médicos com opiniões diferentes",
-  "Conteúdos soltos que não mostram passo a passo",
-  "Falta de clareza sobre como servir alimentos com segurança",
+  "E-books chatos e guias que não funcionam na prática.",
+  "Informações bagunçadas e contraditórias na internet.",
+  "Materiais pouco explicados e sem um passo a passo claro.",
+  "Insegurança e falta de clareza sobre o que fazer.",
 ];
 
 const solutions = [
-  "Método simples e passo a passo",
-  "Design fácil e intuitivo",
-  "Rotina prática para o dia a dia",
-  "Tudo organizado em um só lugar",
+  "Método simples com um passo a passo claro para cada fase.",
+  "Design fácil e intuitivo, pensado para a rotina corrida.",
+  "Rotina prática com cardápios e receitas que funcionam.",
+  "Tudo organizado em um só lugar, na palma da sua mão.",
 ];
 
 export function ValueProp() {
