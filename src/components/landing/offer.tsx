@@ -1,19 +1,5 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Check } from "lucide-react";
-
-const includedFeatures = [
-  "Dicas úteis",
-  "Checklist de Alimentos",
-  "Plano de 14 dias",
-  "Cardápio Diário",
-  "Receitas por Idade",
-  "Guia de Cortes e Segurança",
-  "Acompanhe a Evolução do Bebê",
-  "Salve seus Favoritos",
-  "Exames Essenciais",
-  "Atualizações constantes e novas funcionalidades!",
-];
 
 export function Offer() {
   return (
@@ -39,25 +25,9 @@ export function Offer() {
                   (ou R$ 47,00 à vista por ano)
                 </p>
               </div>
-
-              <div className="border-t bg-accent/20 p-8">
-                <h3 className="mb-4 text-lg font-semibold text-foreground text-center">
-                  ACESSO IMEDIÁTO:
-                </h3>
-                <ul className="space-y-3">
-                  {includedFeatures.map((feature, index) => (
-                    <li key={index} className="flex items-center gap-3">
-                      <Check className="h-5 w-5 flex-shrink-0 text-primary" />
-                      <span className="text-sm text-foreground">
-                        {feature}
-                      </span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
             </div>
 
-            <div className="p-8">
+            <div className="p-8 border-t">
               <Button
                 size="lg"
                 className="w-full rounded-full text-base font-bold"
