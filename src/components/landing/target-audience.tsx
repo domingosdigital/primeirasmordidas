@@ -1,11 +1,11 @@
 import { CheckCircle2 } from "lucide-react";
 
 const checklistItems = [
-  "Para quem quer receitas rápidas e saudáveis para o bebê.",
-  "Para quem deseja facilitar a rotina sem perder segurança.",
-  "Para quem quer saber o que oferecer em cada fase, sem confusão.",
-  "Para quem busca alimentação mais natural e nutritiva desde o início.",
-  "Para quem tem medo de engasgo e reflexo de GAG",
+  "Para quem quer receitas rápidas e saudáveis pro bebê.",
+  "Precisa agilizar a rotina com segurança.",
+  "Quer saber exatamente o que oferecer em cada fase.",
+  "Prefere uma alimentação mais natural e nutritiva.",
+  "Tem medo de engasgo e quer aprender sobre o reflexo de GAG.",
 ];
 
 export function TargetAudience() {
