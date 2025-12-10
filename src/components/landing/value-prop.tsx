@@ -8,9 +8,9 @@ const problems = [
 ];
 
 const solutions = [
-  "Método simples",
-  "Design fácil",
-  "Rotina prática",
+  "Método simples e passo a passo",
+  "Design fácil e intuitivo",
+  "Rotina prática para o dia a dia",
   "Tudo organizado em um só lugar",
 ];
 
@@ -20,34 +20,38 @@ export function ValueProp() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-            Por que o App funciona tão bem?
+            Por que o Primeiras
+            <br />
+            Mordidas é diferente?
           </h2>
         </div>
         <div className="mx-auto mt-12 grid max-w-5xl gap-8 md:grid-cols-2 md:gap-12">
-          <div className="space-y-4 rounded-lg border border-red-200/50 bg-red-50/20 p-6 dark:border-destructive/20 dark:bg-destructive/10">
-            <h3 className="text-2xl font-semibold text-center text-destructive">
-              O caos da informação
+          <div className="flex flex-col space-y-4 rounded-xl border border-destructive/20 bg-destructive/10 p-8 shadow-sm">
+            <h3 className="text-2xl font-bold text-center text-destructive">
+              O jeito antigo e confuso
             </h3>
-            <ul className="space-y-3">
+            <ul className="flex-1 space-y-4">
               {problems.map((item, index) => (
-                <li key={index} className="flex items-start gap-3">
-                  <X className="h-5 w-5 flex-shrink-0 mt-1 text-destructive" />
+                <li key={index} className="flex items-start gap-4">
+                  <div className="flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-destructive/20">
+                    <X className="h-4 w-4 text-destructive" />
+                  </div>
                   <span className="text-muted-foreground">{item}</span>
                 </li>
               ))}
             </ul>
           </div>
-          <div className="space-y-4 rounded-lg border border-primary/20 bg-primary/10 p-6">
-            <h3 className="text-2xl font-semibold text-center text-primary">
-              A clareza do método
+          <div className="flex flex-col space-y-4 rounded-xl border-2 border-primary bg-primary/10 p-8 shadow-lg">
+            <h3 className="text-2xl font-bold text-center text-primary">
+              O método Primeiras Mordidas
             </h3>
-            <ul className="space-y-3">
+            <ul className="flex-1 space-y-4">
               {solutions.map((item, index) => (
-                <li key={index} className="flex items-start gap-3">
-                  <Check className="h-5 w-5 flex-shrink-0 mt-1 text-primary" />
-                  <span className="font-medium text-foreground">
-                    ✔ {item}
-                  </span>
+                <li key={index} className="flex items-start gap-4">
+                  <div className="flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-primary/20">
+                    <Check className="h-4 w-4 text-primary" />
+                  </div>
+                  <span className="font-medium text-foreground">{item}</span>
                 </li>
               ))}
             </ul>
