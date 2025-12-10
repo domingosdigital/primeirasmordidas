@@ -5,7 +5,7 @@ const checklistItems = [
   "Para quem deseja facilitar a rotina sem perder segurança.",
   "Para quem quer saber o que oferecer em cada fase, sem confusão.",
   "Para quem busca alimentação mais natural e nutritiva desde o início.",
-  "Para quem quer mais clareza, praticidade e tranquilidade no dia a dia.",
+  "Para quem tem medo de engasgo e reflexo de GAG",
 ];
 
 export function TargetAudience() {
