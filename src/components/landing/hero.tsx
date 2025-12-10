@@ -8,7 +8,7 @@ export function Hero() {
         <div className="grid items-center gap-6">
           <div className="flex flex-col justify-center space-y-6 text-center">
             <div className="space-y-4">
-              <h1 className="text-4xl font-bold tracking-tighter text-foreground sm:text-5xl">
+              <h1 className="text-2xl font-bold tracking-tighter text-foreground sm:text-3xl">
                 A introdução alimentar
                 <br />
                 do seu bebê sem medo
