@@ -71,7 +71,7 @@ export function Features() {
             </p>
           </div>
         </div>
-        <div className="mx-auto grid max-w-5xl grid-cols-2 gap-6 py-12 md:grid-cols-4 md:gap-8">
+        <div className="mx-auto grid max-w-5xl grid-cols-2 gap-4 py-12 md:grid-cols-4 md:gap-6">
           {features.map((feature, index) => (
             <div
               key={index}
