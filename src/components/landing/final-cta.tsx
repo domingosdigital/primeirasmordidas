@@ -10,7 +10,7 @@ export function FinalCTA() {
           do seu bebê com <span className="font-bold">segurança</span>
           <br />e <span className="font-bold">tranquilidade.</span>
         </h2>
-        <p className="max-w-[600px] text-muted-foreground">
+        <p className="max-w-[600px] text-sm text-muted-foreground">
           © 2025 BabyFood® | Todos os direitos reservados.
         </p>
       </div>
