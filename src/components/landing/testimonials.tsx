@@ -108,10 +108,9 @@ export function Testimonials() {
                               className="mb-4 rounded-full object-cover aspect-square"
                             />
                           )}
-                          <p className="mb-4 text-base font-medium text-foreground">
+                          <p className="mb-4 text-base text-foreground flex-1">
                             "{testimonial.text}"
                           </p>
-                          <div className="flex-grow" />
                           <div className="flex items-center gap-0.5 text-yellow-400">
                             {[...Array(5)].map((_, i) => (
                               <Star key={i} className="h-5 w-5 fill-current" />
