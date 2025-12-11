@@ -37,12 +37,14 @@ export function Hero() {
               />
             </div>
             <div className="w-full flex flex-col items-center gap-4">
-              <Button
-                size="lg"
-                className="w-full max-w-xs rounded-full text-lg font-semibold"
-              >
-                Plano anual por R$ 47,00
-              </Button>
+              <a href="#offer" className="w-full max-w-xs">
+                <Button
+                  size="lg"
+                  className="w-full rounded-full text-lg font-semibold"
+                >
+                  Plano anual por R$ 47,00
+                </Button>
+              </a>
               <p className="text-sm text-muted-foreground">
                 Aprovado e recomendado por
                 <br />
