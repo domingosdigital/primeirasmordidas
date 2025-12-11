@@ -55,7 +55,7 @@ const features = [
   },
   {
     icon: (props: LucideProps) => <Stethoscope {...props} />,
-    title: "(Função Bônus) Exames Essenciais",
+    title: "Exames Essenciais (Função Bônus)",
     description: "Saiba quais são os exames importantes nesta fase.",
   },
 ];
@@ -69,7 +69,7 @@ export function Features() {
             <h2 className="text-3xl tracking-tighter text-primary sm:text-5xl">
               O que você encontra
               <br />
-              no App <span className="font-bold">BabyFood®:</span>
+              no App <span className="font-bold">BabyFood®</span>:
             </h2>
           </div>
         </div>
