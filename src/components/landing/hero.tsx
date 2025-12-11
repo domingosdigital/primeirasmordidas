@@ -21,7 +21,7 @@ export function Hero() {
                 </span>{" "}
                 -{" "}
                 <span className="font-bold text-foreground">
-                  tudo reunido em um único app para facilitar seu dia a dia.
+                  tudo reunido em um único app para facilitar a rotina familiar.
                 </span>
               </p>
             </div>
