@@ -71,13 +71,6 @@ export function Hero() {
                 className="mt-2"
                 data-ai-hint="approval seal"
               />
-              <div className="flex flex-col items-center gap-1">
-                <div className="flex items-center gap-0.5 text-yellow-400">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="h-5 w-5 fill-current" />
-                  ))}
-                </div>
-              </div>
             </div>
           </div>
         </div>
