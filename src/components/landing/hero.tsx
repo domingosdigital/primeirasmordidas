@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
+import { Star } from "lucide-react";
 
 export function Hero() {
   const handleClick = () => {
@@ -70,6 +71,16 @@ export function Hero() {
                 className="mt-2"
                 data-ai-hint="approval seal"
               />
+              <div className="flex flex-col items-center gap-1">
+                <div className="flex items-center gap-0.5 text-yellow-400">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} className="h-5 w-5 fill-current" />
+                  ))}
+                </div>
+                <p className="text-xs text-muted-foreground">
+                  4.8/5.0 entre 7.638 avaliações.
+                </p>
+              </div>
             </div>
           </div>
         </div>

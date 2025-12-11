@@ -116,9 +116,6 @@ export function Testimonials() {
                               <Star key={i} className="h-5 w-5 fill-current" />
                             ))}
                           </div>
-                          <p className="text-xs text-muted-foreground mt-1">
-                            4.8/5.0 entre 7.638 avaliações.
-                          </p>
                           <p className="mt-2 font-semibold text-muted-foreground">
                             {testimonial.name}
                           </p>
