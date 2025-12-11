@@ -55,7 +55,7 @@ export function Hero() {
                   Plano anual por R$ 47,00
                 </Button>
               </div>
-              <p className="text-sm text-muted-foreground">
+              <p className="text-sm text-foreground">
                 Aprovado e recomendado por
                 <br />
                 <span className="text-foreground">nutricionistas</span> e{" "}
