@@ -26,7 +26,7 @@ export function Offer() {
                 <p className="text-base font-bold text-foreground">
                   ou R$ 47,00 à vista por ano.
                 </p>
-                <p className="mt-4 text-xs text-muted-foreground">
+                <p className="mt-4 text-xs font-bold text-muted-foreground">
                   +50.637 mães usam diariamente
                 </p>
               </div>
