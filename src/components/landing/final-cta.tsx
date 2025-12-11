@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export function FinalCTA() {
   return (
@@ -11,6 +12,21 @@ export function FinalCTA() {
           <br />
           e <span className="font-bold">tranquilidade.</span>
         </h2>
+        <div className="w-full flex flex-col items-center gap-4">
+          <div className="w-full max-w-sm">
+            <Link
+              href="https://checkout.dinamicasdafe.site/VCCL1O8SCM00"
+              className="w-full block"
+            >
+              <Button
+                size="lg"
+                className="w-full rounded-full text-xl font-semibold animate-pulse-slow h-14"
+              >
+                Plano anual por R$ 47,00
+              </Button>
+            </Link>
+          </div>
+        </div>
         <div className="flex flex-col gap-2">
           <p className="max-w-[600px] text-sm text-muted-foreground">
             © 2025 BabyFood® | Todos os direitos reservados.
