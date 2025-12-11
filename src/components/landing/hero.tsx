@@ -46,10 +46,10 @@ export function Hero() {
               />
             </div>
             <div className="w-full flex flex-col items-center gap-4">
-              <div className="w-full max-w-xs">
+              <div className="w-full max-w-sm">
                 <Button
                   size="lg"
-                  className="w-full rounded-full text-lg font-semibold"
+                  className="w-full rounded-full text-xl font-semibold animate-pulse-slow h-14"
                   onClick={handleClick}
                 >
                   Plano anual por R$ 47,00
