@@ -29,7 +29,7 @@ export function Hero() {
                 </span>{" "}
                 -{" "}
                 <span className="font-bold text-foreground">
-                  tudo reunido em um único aplicativo para facilitar a correria
+                  tudo reunido em um Único Aplicativo para facilitar a correria
                   do dia a dia.
                 </span>
               </p>
