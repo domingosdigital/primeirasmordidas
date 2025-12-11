@@ -20,7 +20,7 @@ export function Hero() {
               Introdução Alimentar
               <br />
               <span className="font-bold">prática, segura</span>
-              <br />e <span className="font-bold">sem enrolação</span>
+              <br />e <span className="font-bold">sem enrolação!</span>
             </h1>
             <div className="space-y-4">
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-lg">
