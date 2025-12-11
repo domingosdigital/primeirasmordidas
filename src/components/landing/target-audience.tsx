@@ -14,7 +14,7 @@ export function TargetAudience() {
       <div className="container mx-auto grid items-center justify-center gap-4 px-4 text-center md:px-6">
         <div className="space-y-3">
           <h2 className="text-3xl tracking-tighter text-primary md:text-4xl/tight">
-            Para quem é o App:
+            Para quem é o App
           </h2>
         </div>
         <div className="mx-auto mt-4 w-full max-w-md space-y-4">

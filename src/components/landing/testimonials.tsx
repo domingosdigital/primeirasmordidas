@@ -75,7 +75,7 @@ export function Testimonials() {
           <h2 className="text-3xl tracking-tighter text-primary sm:text-4xl">
             <span className="font-bold">Mães do Brasil inteiro</span>
             <br />
-            estão comentando:
+            estão comentando
           </h2>
         </div>
         <div className="mx-auto max-w-5xl pt-4 pb-12">
