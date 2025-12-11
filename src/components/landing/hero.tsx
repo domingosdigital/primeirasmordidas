@@ -7,7 +7,7 @@ export function Hero() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid items-center gap-6">
           <div className="flex flex-col justify-center space-y-6 text-center">
-            <h1 className="text-3xl tracking-tighter text-primary sm:text-4xl">
+            <h1 className="text-3xl font-light tracking-tighter text-primary sm:text-4xl md:text-5xl">
               Introdução Alimentar
               <br />
               <span className="font-bold">prática, segura</span>
@@ -44,7 +44,7 @@ export function Hero() {
                 Assinar agora por R$ 47,00/ano
               </Button>
               <p className="text-sm font-bold text-muted-foreground">
-                Aprovado por mais de 50 mil famílias.
+                Aprovado e recomendado por Nutricionistas de todo Brasil
               </p>
             </div>
           </div>
