@@ -7,9 +7,9 @@ import Link from "next/link";
 
 export function Offer() {
   return (
-    <section id="offer" className="w-full bg-card pt-0 pb-12 md:pb-24 lg:pb-32">
+    <section id="offer" className="w-full bg-card pt-0 pb-12">
       <div className="container mx-auto px-4 md:px-6">
-        <div className="mx-auto max-w-2xl">
+        <div className="mx-auto max-w-5xl">
           <Card className="overflow-hidden rounded-2xl border-2 border-primary shadow-2xl shadow-primary/20">
             <div className="bg-primary p-6 text-center text-primary-foreground">
               <h2 className="text-3xl font-bold">
