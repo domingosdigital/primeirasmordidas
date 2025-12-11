@@ -58,8 +58,8 @@ export function Hero() {
               <p className="text-sm text-muted-foreground">
                 Aprovado e recomendado por
                 <br />
-                <span className="font-bold text-foreground">nutricionistas</span> e{" "}
-                <span className="font-bold text-foreground">mães</span> de
+                <span className="text-foreground">nutricionistas</span> e{" "}
+                <span className="text-foreground">mães</span> de
                 todo Brasil
               </p>
             </div>
