@@ -12,7 +12,7 @@ export function Offer() {
                 BabyFood® App
               </h2>
               <p className="mt-2 text-lg">
-                A introdução alimentar do seu bebê na palma da sua mão 📱
+                A <span className="font-bold">introdução alimentar</span> do seu bebê na palma da sua mão 📱
               </p>
             </div>
 
