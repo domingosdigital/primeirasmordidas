@@ -41,7 +41,7 @@ export function Hero() {
                 size="lg"
                 className="w-full max-w-xs rounded-full text-lg font-semibold"
               >
-                Assinar agora por R$ 47,00/ano
+                Plano anual por R$ 47,00
               </Button>
               <p className="text-sm text-muted-foreground">
                 Aprovado e recomendado por
