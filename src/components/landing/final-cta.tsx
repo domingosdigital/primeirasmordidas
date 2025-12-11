@@ -1,7 +1,15 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
-import Link from "next/link";
 
 export function FinalCTA() {
+  const handleClick = () => {
+    const element = document.getElementById("offer");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
+
   return (
     <section className="w-full bg-card py-12 md:py-24 lg:py-32">
       <div className="container mx-auto flex flex-col items-center gap-6 px-4 text-center md:px-6">
@@ -14,17 +22,13 @@ export function FinalCTA() {
         </h2>
         <div className="w-full flex flex-col items-center gap-4">
           <div className="w-full max-w-sm">
-            <Link
-              href="https://checkout.dinamicasdafe.site/VCCL1O8SCM00"
-              className="w-full block"
+            <Button
+              size="lg"
+              className="w-full rounded-full text-xl font-semibold animate-pulse-slow h-14"
+              onClick={handleClick}
             >
-              <Button
-                size="lg"
-                className="w-full rounded-full text-xl font-semibold animate-pulse-slow h-14"
-              >
-                Plano anual por R$ 47,00
-              </Button>
-            </Link>
+              Plano anual por R$ 47,00
+            </Button>
           </div>
         </div>
         <div className="flex flex-col gap-2">

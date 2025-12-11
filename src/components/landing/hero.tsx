@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import Link from "next/link";
 
 export function Hero() {
   const handleClick = () => {
@@ -49,17 +48,13 @@ export function Hero() {
             </div>
             <div className="w-full flex flex-col items-center gap-4">
               <div className="w-full max-w-sm">
-                <Link
-                  href="https://checkout.dinamicasdafe.site/VCCL1O8SCM00"
-                  className="w-full block"
+                <Button
+                  size="lg"
+                  className="w-full rounded-full text-xl font-semibold animate-pulse-slow h-14"
+                  onClick={handleClick}
                 >
-                  <Button
-                    size="lg"
-                    className="w-full rounded-full text-xl font-semibold animate-pulse-slow h-14"
-                  >
-                    Plano anual por R$ 47,00
-                  </Button>
-                </Link>
+                  Plano anual por R$ 47,00
+                </Button>
               </div>
               <p className="text-sm text-foreground">
                 Aprovado por mães
