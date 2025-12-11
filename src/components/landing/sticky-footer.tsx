@@ -7,7 +7,7 @@ export function StickyFooter() {
   const isMobile = useIsMobile();
 
   const handleClick = () => {
-    const element = document.getElementById("value-prop");
+    const element = document.getElementById("offer");
     if (element) {
       element.scrollIntoView({ behavior: "smooth", block: "start" });
     }

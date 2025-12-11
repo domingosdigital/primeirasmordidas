@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 
 export function Hero() {
   const handleClick = () => {
-    const element = document.getElementById("value-prop");
+    const element = document.getElementById("offer");
     if (element) {
       element.scrollIntoView({ behavior: "smooth", block: "start" });
     }
