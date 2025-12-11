@@ -37,7 +37,7 @@ export function Hero() {
             </div>
             <div className="flex justify-center">
               <Image
-                src="https://i.imgur.com/D00oTnH.gif"
+                src="https://i.imgur.com/7gQGUMc.gif"
                 alt="Demonstração do app BabyFood®"
                 width={720}
                 height={405}
