@@ -21,7 +21,9 @@ export function TargetAudience() {
           {checklistItems.map((item, index) => (
             <div key={index} className="flex items-start gap-4">
               <CheckCircle2 className="mt-1 h-6 w-6 flex-shrink-0 text-primary" />
-              <span className="text-left text-lg text-foreground">{item}</span>
+              <span className="text-left font-semibold text-base text-foreground">
+                {item}
+              </span>
             </div>
           ))}
         </div>
