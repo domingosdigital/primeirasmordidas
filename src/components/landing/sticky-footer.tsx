@@ -13,7 +13,7 @@ export function StickyFooter() {
   return (
     <footer className="fixed bottom-0 left-0 right-0 z-50 border-t bg-card/80 p-4 backdrop-blur-sm md:hidden">
       <Button size="lg" className="w-full rounded-full text-lg font-semibold">
-        BabyFood® por R$ 47,00
+        Quero acessar o App
       </Button>
     </footer>
   );
