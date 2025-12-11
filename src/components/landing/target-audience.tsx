@@ -17,7 +17,7 @@ export function TargetAudience() {
             Para quem é o App:
           </h2>
         </div>
-        <div className="mx-auto mt-8 w-full max-w-md space-y-4">
+        <div className="mx-auto mt-4 w-full max-w-md space-y-4">
           {checklistItems.map((item, index) => (
             <div key={index} className="flex items-start gap-4">
               <CheckCircle2 className="mt-1 h-6 w-6 flex-shrink-0 text-primary" />
