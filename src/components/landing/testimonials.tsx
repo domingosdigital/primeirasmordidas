@@ -10,7 +10,7 @@ import {
 } from "@/components/ui/carousel";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 
-const testimonials = [
+const testimonials1 = [
   {
     id: "testimonial-ana",
     name: "Ana P.",
@@ -41,6 +41,9 @@ const testimonials = [
     location: "Belo Horizonte - MG",
     text: "O que eu ia gastar com uma consulta valeu por um ano de acesso. O checklist de alimentos me deu um controle que eu não tinha ideia que precisava.",
   },
+];
+
+const testimonials2 = [
   {
     id: "testimonial-bruna",
     name: "Bruna A.",
@@ -78,7 +81,7 @@ export function Testimonials() {
             estão comentando
           </h2>
         </div>
-        <div className="mx-auto max-w-5xl pt-4 pb-12">
+        <div className="mx-auto max-w-5xl pt-4 pb-8">
           <Carousel
             opts={{
               align: "start",
@@ -86,7 +89,62 @@ export function Testimonials() {
             className="w-full"
           >
             <CarouselContent>
-              {testimonials.map((testimonial, index) => {
+              {testimonials1.map((testimonial, index) => {
+                const image = PlaceHolderImages.find(
+                  (img) => img.id === testimonial.id
+                );
+                return (
+                  <CarouselItem
+                    key={index}
+                    className="md:basis-1/2 lg:basis-1/3"
+                  >
+                    <div className="p-1 h-full">
+                      <Card className="rounded-2xl shadow-none transition-transform flex flex-col h-full">
+                        <CardContent className="flex flex-col items-center p-8 text-center flex-1">
+                          {image && (
+                            <Image
+                              src={image.imageUrl}
+                              alt={image.description}
+                              data-ai-hint={image.imageHint}
+                              width={80}
+                              height={80}
+                              className="mb-4 rounded-full object-cover aspect-square"
+                            />
+                          )}
+                          <p className="mb-4 text-base text-foreground flex-1">
+                            "{testimonial.text}"
+                          </p>
+                          <div className="flex items-center gap-0.5 text-yellow-400">
+                            {[...Array(5)].map((_, i) => (
+                              <Star key={i} className="h-5 w-5 fill-current" />
+                            ))}
+                          </div>
+                          <p className="mt-2 font-semibold text-muted-foreground">
+                            {testimonial.name}
+                          </p>
+                          <p className="text-sm text-muted-foreground">
+                            {testimonial.location}
+                          </p>
+                        </CardContent>
+                      </Card>
+                    </div>
+                  </CarouselItem>
+                );
+              })}
+            </CarouselContent>
+            <CarouselPrevious className="hidden sm:flex" />
+            <CarouselNext className="hidden sm:flex" />
+          </Carousel>
+        </div>
+        <div className="mx-auto max-w-5xl pt-0 pb-12">
+          <Carousel
+            opts={{
+              align: "start",
+            }}
+            className="w-full"
+          >
+            <CarouselContent>
+              {testimonials2.map((testimonial, index) => {
                 const image = PlaceHolderImages.find(
                   (img) => img.id === testimonial.id
                 );
