@@ -224,7 +224,7 @@ export function Testimonials() {
             <CarouselNext className="hidden sm:flex" />
           </Carousel>
         </div>
-        <div className="flex flex-col items-center gap-4 pt-0 pb-4">
+        <div className="flex flex-col items-center gap-2 pt-0 pb-4">
           <div className="flex gap-2">
             {scrollSnaps2.map((_, index) => (
               <button
