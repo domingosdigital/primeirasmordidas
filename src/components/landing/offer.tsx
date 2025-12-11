@@ -26,7 +26,7 @@ export function Offer() {
                 <p className="text-base font-bold text-foreground">
                   ou R$ 47,00 à vista por ano.
                 </p>
-                <p className="mt-4 text-xs font-bold text-muted-foreground">
+                <p className="mt-4 text-xs font-bold">
                   +50.637 mães usam diariamente
                 </p>
               </div>
@@ -37,7 +37,7 @@ export function Offer() {
                 size="lg"
                 className="w-full rounded-full text-base font-bold animate-pulse-slow"
               >
-                ASSINAR AGORA POR R$ 47,00
+                GARANTIR MEU ACESSO AGORA
               </Button>
               <div className="mt-3 text-center text-xs font-bold text-muted-foreground">
                 <p>Pagamento seguro | Acesso imediato</p>
