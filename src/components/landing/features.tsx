@@ -11,6 +11,7 @@ import {
 } from "lucide-react";
 import type { LucideProps } from "lucide-react";
 import React from "react";
+import { Badge } from "@/components/ui/badge";
 
 const features = [
   {
@@ -26,7 +27,8 @@ const features = [
   {
     icon: (props: LucideProps) => <Lightbulb {...props} />,
     title: "Cardápio Diário",
-    description: "Sugestões automáticas para não perder tempo pensando no que fazer.",
+    description:
+      "Sugestões automáticas para não perder tempo pensando no que fazer.",
   },
   {
     icon: (props: LucideProps) => <CalendarDays {...props} />,
@@ -51,11 +53,16 @@ const features = [
   {
     icon: (props: LucideProps) => <Star {...props} />,
     title: "Favoritos",
-    description: "Salve as receitas e dicas que mais gosta para consultar sempre.",
+    description:
+      "Salve as receitas e dicas que mais gosta para consultar sempre.",
   },
   {
     icon: (props: LucideProps) => <Stethoscope {...props} />,
-    title: "Exames Essenciais (Função Bônus)",
+    title: (
+      <span className="flex items-center gap-2">
+        Exames Essenciais <Badge variant="secondary">Função Nova</Badge>
+      </span>
+    ),
     description: "Saiba quais são os exames importantes nesta fase.",
   },
 ];
