@@ -1,7 +1,16 @@
+"use client";
+
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 
 export function Hero() {
+  const handleClick = () => {
+    const element = document.getElementById("value-prop");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
+
   return (
     <section className="w-full bg-card pt-12 md:pt-24 lg:pt-32 pb-8 md:pb-12">
       <div className="container mx-auto px-4 md:px-6">
@@ -37,14 +46,15 @@ export function Hero() {
               />
             </div>
             <div className="w-full flex flex-col items-center gap-4">
-              <a href="#offer" className="w-full max-w-xs">
+              <div className="w-full max-w-xs">
                 <Button
                   size="lg"
                   className="w-full rounded-full text-lg font-semibold"
+                  onClick={handleClick}
                 >
                   Plano anual por R$ 47,00
                 </Button>
-              </a>
+              </div>
               <p className="text-sm text-muted-foreground">
                 Aprovado e recomendado por
                 <br />
