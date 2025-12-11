@@ -13,7 +13,7 @@ export function Offer() {
           <Card className="overflow-hidden rounded-2xl border-2 border-primary shadow-2xl shadow-primary/20">
             <div className="bg-primary p-6 text-center text-primary-foreground">
               <h2 className="text-3xl font-bold">
-                Baby<span className="font-normal">Food® App</span>
+                Baby<span className="font-normal">Food App</span>
               </h2>
               <p className="mt-2 text-lg">
                 A <span className="font-bold">introdução alimentar</span> do
@@ -56,7 +56,7 @@ export function Offer() {
                   GARANTIR MEU ACESSO AGORA
                 </Button>
               </Link>
-              <div className="mt-3 text-center text-xs font-bold text-muted-foreground">
+              <div className="mt-3 text-center text-xs text-muted-foreground">
                 <p>Pagamento seguro | Acesso imediato</p>
                 <p>Garantia de 7 dias</p>
               </div>
