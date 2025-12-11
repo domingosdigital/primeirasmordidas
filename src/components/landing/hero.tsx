@@ -62,6 +62,14 @@ export function Hero() {
                 <span className="text-foreground">mães</span> de
                 todo Brasil
               </p>
+              <Image
+                src="https://i.imgur.com/oAT3Thv.png"
+                alt="Selo de aprovação"
+                width={200}
+                height={50}
+                className="mt-2"
+                data-ai-hint="approval seal"
+              />
             </div>
           </div>
         </div>
