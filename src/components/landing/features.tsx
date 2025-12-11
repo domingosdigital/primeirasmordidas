@@ -52,7 +52,11 @@ const features = [
   },
   {
     icon: (props: LucideProps) => <Star {...props} />,
-    title: "Favoritos",
+    title: (
+      <span className="flex items-center gap-2">
+        Favoritos <Badge variant="secondary">Função Nova</Badge>
+      </span>
+    ),
     description:
       "Salve as receitas e dicas que mais gosta para consultar sempre.",
   },
