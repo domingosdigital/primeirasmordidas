@@ -5,6 +5,7 @@ const problems = [
   "Informações bagunçadas e contraditórias na internet.",
   "Materiais pouco explicados e sem um passo a passo claro.",
   "Insegurança e falta de clareza sobre o que fazer.",
+  "Receitas que o bebê não se adapta e você não sabe como variar.",
 ];
 
 const solutions = [
