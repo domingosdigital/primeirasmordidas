@@ -54,7 +54,7 @@ const features = [
     icon: (props: LucideProps) => <Star {...props} />,
     title: (
       <span className="flex items-center gap-2">
-        Favoritos <Badge variant="secondary">Função Nova</Badge>
+        Favoritos <Badge variant="default">Função Nova</Badge>
       </span>
     ),
     description:
@@ -64,7 +64,7 @@ const features = [
     icon: (props: LucideProps) => <Stethoscope {...props} />,
     title: (
       <span className="flex items-center gap-2">
-        Exames Essenciais <Badge variant="secondary">Função Nova</Badge>
+        Exames Essenciais <Badge variant="default">Função Nova</Badge>
       </span>
     ),
     description: "Saiba quais são os exames importantes nesta fase.",
