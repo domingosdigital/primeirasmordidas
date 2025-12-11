@@ -31,7 +31,7 @@ export function Hero() {
                 alt="Demonstração do app BabyFood®"
                 width={720}
                 height={405}
-                className="rounded-lg shadow-lg"
+                className="rounded-lg"
                 data-ai-hint="app mockup"
                 unoptimized
               />
