@@ -37,7 +37,7 @@ export function Offer() {
                 size="lg"
                 className="w-full rounded-full text-base font-bold animate-pulse-slow"
               >
-                ASSINAR AGORA POR R$ 47,00/ano
+                ASSINAR AGORA POR R$ 47,00
               </Button>
               <div className="mt-3 text-center text-xs font-bold text-muted-foreground">
                 <p>Pagamento seguro | Acesso imediato</p>
