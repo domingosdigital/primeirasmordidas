@@ -15,9 +15,12 @@ export function FinalCTA() {
           <p className="max-w-[600px] text-sm text-muted-foreground">
             © 2025 BabyFood® | Todos os direitos reservados.
           </p>
-          <p className="max-w-[600px] text-xs text-muted-foreground">
-            Política de Privacidade | Termos de uso | Sobre o App
-          </p>
+          <a
+            href="#"
+            className="max-w-[600px] text-xs text-muted-foreground hover:underline"
+          >
+            Política de Privacidade | Termos de uso
+          </a>
         </div>
       </div>
     </section>

@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import { Star } from "lucide-react";
+import Link from "next/link";
 
 export function Hero() {
   const handleClick = () => {
@@ -30,7 +30,8 @@ export function Hero() {
                 </span>{" "}
                 -{" "}
                 <span className="font-bold text-foreground">
-                  tudo reunido em um Único Aplicativo para deixar sua rotina mais leve.
+                  tudo reunido em um Único Aplicativo para deixar sua rotina
+                  mais leve.
                 </span>
               </p>
             </div>
@@ -48,13 +49,17 @@ export function Hero() {
             </div>
             <div className="w-full flex flex-col items-center gap-4">
               <div className="w-full max-w-sm">
-                <Button
-                  size="lg"
-                  className="w-full rounded-full text-xl font-semibold animate-pulse-slow h-14"
-                  onClick={handleClick}
+                <Link
+                  href="https://checkout.dinamicasdafe.site/VCCL1O8SCM00"
+                  className="w-full block"
                 >
-                  Plano anual por R$ 47,00
-                </Button>
+                  <Button
+                    size="lg"
+                    className="w-full rounded-full text-xl font-semibold animate-pulse-slow h-14"
+                  >
+                    Plano anual por R$ 47,00
+                  </Button>
+                </Link>
               </div>
               <p className="text-sm text-foreground">
                 Aprovado por mães

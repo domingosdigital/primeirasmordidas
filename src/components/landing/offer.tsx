@@ -1,6 +1,9 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { CheckCircle2, Hourglass } from "lucide-react";
+import Link from "next/link";
 
 export function Offer() {
   return (
@@ -9,7 +12,9 @@ export function Offer() {
         <div className="mx-auto max-w-2xl">
           <Card className="overflow-hidden rounded-2xl border-2 border-primary shadow-2xl shadow-primary/20">
             <div className="bg-primary p-6 text-center text-primary-foreground">
-              <h2 className="text-3xl font-bold">BabyFood® App</h2>
+              <h2 className="text-3xl font-bold">
+                Baby<span className="font-normal">Food® App</span>
+              </h2>
               <p className="mt-2 text-lg">
                 A <span className="font-bold">introdução alimentar</span> do
                 seu bebê na palma da sua mão 📱
@@ -40,12 +45,17 @@ export function Offer() {
             </div>
 
             <div className="border-t px-4 sm:px-6 py-8">
-              <Button
-                size="lg"
-                className="w-full rounded-full text-base font-bold animate-pulse-slow"
+              <Link
+                href="https://checkout.dinamicasdafe.site/VCCL1O8SCM00"
+                className="w-full block"
               >
-                GARANTIR MEU ACESSO AGORA
-              </Button>
+                <Button
+                  size="lg"
+                  className="w-full rounded-full text-base font-bold animate-pulse-slow"
+                >
+                  GARANTIR MEU ACESSO AGORA
+                </Button>
+              </Link>
               <div className="mt-3 text-center text-xs font-bold text-muted-foreground">
                 <p>Pagamento seguro | Acesso imediato</p>
                 <p>Garantia de 7 dias</p>
