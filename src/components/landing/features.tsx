@@ -91,7 +91,7 @@ export function Features() {
             <h2 className="text-3xl tracking-tighter text-primary sm:text-5xl">
               O que você encontra
               <br />
-              no App <span className="font-bold">BabyFood®</span>
+              no App <span className="font-bold">Baby</span>Food®
             </h2>
           </div>
         </div>
