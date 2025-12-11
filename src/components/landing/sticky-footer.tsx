@@ -24,7 +24,7 @@ export function StickyFooter() {
         className="w-full rounded-full text-lg font-semibold"
         onClick={handleClick}
       >
-        GARANTIR MEU ACESSO AGORA
+        GARANTIR MEU ACESSO
       </Button>
     </footer>
   );
