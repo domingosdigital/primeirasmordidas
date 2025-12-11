@@ -57,11 +57,9 @@ export function Hero() {
                 </Button>
               </div>
               <p className="text-sm text-foreground">
-                Aprovado e recomendado por
+                Aprovado por mães
                 <br />
-                <span className="text-foreground">nutricionistas</span> e{" "}
-                <span className="text-foreground">mães</span> de
-                todo Brasil
+                Recomendado por nutricionistas.
               </p>
               <Image
                 src="https://i.imgur.com/oAT3Thv.png"
