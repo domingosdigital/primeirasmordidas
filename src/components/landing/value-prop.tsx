@@ -1,3 +1,4 @@
+
 import { Check, X } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
@@ -31,10 +32,10 @@ export function ValueProp() {
             <br />é diferente?
           </h2>
         </div>
-        <Card className="mx-auto mt-8 max-w-5xl rounded-2xl">
+        <Card className="mx-auto mt-8 max-w-5xl rounded-2xl border-2 border-primary shadow-lg shadow-primary/10">
           <CardContent className="p-0">
             <div className="grid md:grid-cols-2">
-              <div className="flex flex-col space-y-4 rounded-t-xl md:rounded-tr-none md:rounded-l-xl border-destructive/20 bg-destructive/10 p-8 shadow-sm">
+              <div className="flex flex-col space-y-4 rounded-t-xl md:rounded-tr-none md:rounded-l-xl bg-destructive/5 p-8">
                 <h3 className="text-2xl font-bold text-center text-destructive">
                   Sem o App BabyFood®
                 </h3>
@@ -49,7 +50,7 @@ export function ValueProp() {
                   ))}
                 </ul>
               </div>
-              <div className="flex flex-col space-y-4 rounded-b-xl md:rounded-bl-none md:rounded-r-xl border-2 border-primary bg-primary/10 p-8 shadow-lg">
+              <div className="flex flex-col space-y-4 rounded-b-xl md:rounded-bl-none md:rounded-r-xl bg-primary/5 p-8 md:border-l-2 md:border-primary">
                 <h3 className="text-2xl font-bold text-center text-primary">
                   Com o App BabyFood®
                 </h3>
