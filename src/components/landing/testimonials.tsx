@@ -168,7 +168,7 @@ export function Testimonials() {
             <CarouselNext className="hidden sm:flex" />
           </Carousel>
         </div>
-        <div className="mx-auto max-w-5xl pt-0 pb-12">
+        <div className="mx-auto max-w-5xl pt-0 pb-8">
           <Carousel
             setApi={setApi2}
             opts={{
@@ -224,14 +224,14 @@ export function Testimonials() {
             <CarouselNext className="hidden sm:flex" />
           </Carousel>
         </div>
-        <div className="flex flex-col items-center gap-4">
+        <div className="flex flex-col items-center gap-4 pt-0 pb-4">
           <div className="flex gap-2">
             {scrollSnaps2.map((_, index) => (
               <button
                 key={index}
                 onClick={() => api2?.scrollTo(index)}
-                className={`h-2 w-2 rounded-full transition-colors ${
-                  index === selectedIndex2 ? "bg-primary" : "bg-primary/20"
+                className={`h-2 rounded-full transition-all duration-300 ease-in-out ${
+                  index === selectedIndex2 ? "w-8 bg-primary" : "w-4 bg-primary/20"
                 }`}
                 aria-label={`Ir para o slide ${index + 1}`}
               />
