@@ -59,11 +59,17 @@ const testimonials = [
     location: "Manaus - AM",
     text: "Meu bebê tinha restrições alimentares e eu estava apavorada. O app tem receitas específicas e dicas que me ajudaram a adaptar tudo com segurança. Foi um alívio enorme encontrar essa ajuda.",
   },
+  {
+    id: "testimonial-laura",
+    name: "Laura B.",
+    location: "Porto Alegre - RS",
+    text: "A diferença entre GAG e engasgo era um fantasma pra mim. O app não só me ensinou a diferenciar, como me deu a calma que eu precisava pra lidar com os dois. Hoje vejo meu filho explorar a comida sem aquele medo paralisante.",
+  },
 ];
 
 export function Testimonials() {
   return (
-    <section className="w-full pt-12 md:py-24">
+    <section className="w-full pt-4 md:py-24">
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <h2 className="text-3xl tracking-tighter text-primary sm:text-4xl">
@@ -91,7 +97,7 @@ export function Testimonials() {
                   >
                     <div className="p-1 h-full">
                       <Card className="rounded-2xl shadow-none transition-transform flex flex-col h-full">
-                        <CardContent className="flex flex-col items-center justify-center p-8 text-center flex-1">
+                        <CardContent className="flex flex-col items-center p-8 text-center flex-1">
                           {image && (
                             <Image
                               src={image.imageUrl}
