@@ -16,6 +16,9 @@ export function TargetAudience() {
           <h2 className="text-3xl tracking-tighter text-primary md:text-4xl/tight">
             Para quem é o App
           </h2>
+          <p className="mx-auto max-w-[700px] text-muted-foreground md:text-lg">
+            Para quem precisa de agilidade e praticidade durante o dia.
+          </p>
         </div>
         <div className="mx-auto mt-4 w-full max-w-md space-y-4">
           {checklistItems.map((item, index) => (
@@ -23,7 +26,7 @@ export function TargetAudience() {
               <div className="flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-primary/20">
                 <Check className="h-4 w-4 text-primary" />
               </div>
-              <span className="text-left font-semibold text-base text-foreground">
+              <span className="text-left font-bold text-base text-foreground">
                 {item}
               </span>
             </div>
