@@ -1,4 +1,4 @@
-import { CheckCircle2 } from "lucide-react";
+import { Check } from "lucide-react";
 
 const checklistItems = [
   "Para quem quer receitas rápidas e saudáveis pro bebê.",
@@ -20,7 +20,9 @@ export function TargetAudience() {
         <div className="mx-auto mt-4 w-full max-w-md space-y-4">
           {checklistItems.map((item, index) => (
             <div key={index} className="flex items-start gap-4">
-              <CheckCircle2 className="mt-1 h-6 w-6 flex-shrink-0 text-primary" />
+              <div className="flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-primary/20">
+                <Check className="h-4 w-4 text-primary" />
+              </div>
               <span className="text-left font-semibold text-base text-foreground">
                 {item}
               </span>
