@@ -12,7 +12,7 @@ export function Hero() {
   };
 
   return (
-    <section className="w-full bg-card pt-12 md:pt-24 lg:pt-32 pb-8 md:pb-12">
+    <section className="w-full bg-card pt-8 md:pt-12 lg:pt-16 pb-8 md:pb-12">
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid items-center gap-6">
           <div className="flex flex-col justify-center space-y-6 text-center">
