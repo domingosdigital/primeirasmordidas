@@ -54,7 +54,7 @@ const features = [
     icon: (props: LucideProps) => <Star {...props} />,
     title: (
       <span className="flex items-center gap-2">
-        Favoritos <Badge variant="default">Função Nova</Badge>
+        Favoritos <Badge>Função Nova</Badge>
       </span>
     ),
     description:
@@ -64,7 +64,7 @@ const features = [
     icon: (props: LucideProps) => <Stethoscope {...props} />,
     title: (
       <span className="flex items-center gap-2">
-        Exames Essenciais <Badge variant="default">Função Nova</Badge>
+        Exames Essenciais <Badge>Função Nova</Badge>
       </span>
     ),
     description: "Saiba quais são os exames importantes nesta fase.",
@@ -84,7 +84,7 @@ export function Features() {
             </h2>
           </div>
         </div>
-        <div className="mx-auto mt-12 flex max-w-3xl flex-col gap-3">
+        <div className="mx-auto mt-8 flex max-w-3xl flex-col gap-3">
           {features.map((feature, index) => (
             <div
               key={index}
