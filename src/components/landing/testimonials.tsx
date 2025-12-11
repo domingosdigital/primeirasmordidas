@@ -112,7 +112,7 @@ export function Testimonials() {
             estão comentando
           </h2>
         </div>
-        <div className="mx-auto max-w-5xl pt-4 pb-8">
+        <div className="mx-auto max-w-5xl pt-4 pb-4">
           <Carousel
             setApi={setApi1}
             opts={{
