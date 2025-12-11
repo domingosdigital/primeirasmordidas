@@ -24,7 +24,7 @@ export function StickyFooter() {
         className="w-full rounded-full text-lg font-semibold"
         onClick={handleClick}
       >
-        Quero acessar o App
+        GARANTIR MEU ACESSO AGORA
       </Button>
     </footer>
   );
