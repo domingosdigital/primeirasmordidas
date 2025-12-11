@@ -25,8 +25,7 @@ export function Hero() {
             <div className="space-y-4">
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-lg">
                 <span className="text-foreground">
-                  Receitas rápidas, cardápios saudáveis, orientações seguras e
-                  muito mais
+                  Receitas rápidas, cardápios saudáveis e orientações seguras
                 </span>{" "}
                 -{" "}
                 <span className="font-bold text-foreground">
