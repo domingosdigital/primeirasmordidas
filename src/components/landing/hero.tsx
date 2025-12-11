@@ -65,8 +65,8 @@ export function Hero() {
               <Image
                 src="https://i.imgur.com/oAT3Thv.png"
                 alt="Selo de aprovação"
-                width={200}
-                height={50}
+                width={150}
+                height={38}
                 className="mt-2"
                 data-ai-hint="approval seal"
               />
