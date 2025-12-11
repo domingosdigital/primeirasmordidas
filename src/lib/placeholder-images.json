@@ -37,18 +37,6 @@
       "imageHint": "woman portrait"
     },
     {
-      "id": "testimonial-patricia",
-      "description": "Circular profile picture of Patrícia L., a mother with her baby.",
-      "imageUrl": "https://images.unsplash.com/photo-1568339414253-15a3a1443a99?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtb3RoZXIlMjBiYWJ5fGVufDB8fHx8MTc2NTM3NjgyNHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "mother baby"
-    },
-    {
-      "id": "testimonial-mariana",
-      "description": "Circular profile picture of Mariana C.",
-      "imageUrl": "https://images.unsplash.com/photo-1615914272183-50774c43a0b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsYXRpbmElMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjcwMTQxMDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "latina portrait"
-    },
-    {
       "id": "testimonial-bruna",
       "description": "Circular profile picture of Bruna A.",
       "imageUrl": "https://images.unsplash.com/photo-1542648810-129623b3c483?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxsYXRpbmElMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjcwMTQxMDN8MA&ixlib=rb-4.1.0&q=80&w=1080",

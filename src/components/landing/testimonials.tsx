@@ -42,18 +42,6 @@ const testimonials = [
     text: "O que eu ia gastar com uma consulta valeu por um ano de acesso. O checklist de alimentos me deu um controle que eu não tinha ideia que precisava.",
   },
   {
-    id: "testimonial-patricia",
-    name: "Patrícia L.",
-    location: "Porto Alegre - RS",
-    text: "A diferença do reflexo de GAG para o engasgo não estava clara para mim. O app explicou de um jeito tão simples que perdi o medo. Recomendo de olhos fechados.",
-  },
-  {
-    id: "testimonial-mariana",
-    name: "Mariana C.",
-    location: "Brasília - DF",
-    text: "Ver meu filho experimentar novos sabores sem choro é uma vitória diária. O app me deu a confiança que faltava para apresentar os alimentos de um jeito divertido. Chorava de frustração, hoje choro de alegria.",
-  },
-  {
     id: "testimonial-bruna",
     name: "Bruna A.",
     location: "Recife - PE",
@@ -84,7 +72,7 @@ export function Testimonials() {
             estão comentando:
           </h2>
         </div>
-        <div className="mx-auto max-w-5xl pt-8 pb-12">
+        <div className="mx-auto max-w-5xl pt-4 pb-12">
           <Carousel
             opts={{
               align: "start",
