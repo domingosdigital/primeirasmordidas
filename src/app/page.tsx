@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className="flex min-h-[100dvh] flex-col">
       <Header />
-      <main className="flex-1 pt-16 pb-24 md:pb-0">
+      <main className="flex-1 pt-16">
         <Hero />
         <Features />
         <TargetAudience />
