@@ -1,6 +1,7 @@
 import { Check } from "lucide-react";
 
 const checklistItems = [
+  "Para quem precisa de agilidade e praticidade durante o dia.",
   "Para quem quer receitas rápidas e saudáveis pro bebê.",
   "Precisa agilizar a rotina com segurança.",
   "Quer saber exatamente o que oferecer em cada fase.",
@@ -16,9 +17,6 @@ export function TargetAudience() {
           <h2 className="text-3xl tracking-tighter text-primary md:text-4xl/tight">
             Para quem é o App
           </h2>
-          <p className="mx-auto max-w-[700px] text-muted-foreground md:text-lg">
-            Para quem precisa de agilidade e praticidade durante o dia.
-          </p>
         </div>
         <div className="mx-auto mt-4 w-full max-w-md space-y-4">
           {checklistItems.map((item, index) => (
