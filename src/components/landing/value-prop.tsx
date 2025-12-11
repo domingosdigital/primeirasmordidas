@@ -27,7 +27,7 @@ export function ValueProp() {
     >
       <div className="container mx-auto px-4 md:px-6">
         <Offer />
-        <div className="flex flex-col items-center justify-center space-y-4 text-center mb-8 mt-12 md:mt-24">
+        <div className="flex flex-col items-center justify-center space-y-4 text-center mb-8 mt-8 md:mt-16">
           <h2 className="text-3xl tracking-tighter text-primary sm:text-4xl md:text-5xl">
             Por que o <span className="font-bold">BabyFood®</span>
             <br />é diferente?
