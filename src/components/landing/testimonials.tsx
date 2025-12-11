@@ -54,10 +54,10 @@ export function Testimonials() {
     <section className="w-full pt-12 md:py-24">
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
-          <h2 className="text-3xl font-bold tracking-tighter text-primary sm:text-4xl">
-            O que mães do Brasil
+          <h2 className="text-3xl tracking-tighter text-primary sm:text-4xl">
+            O que <span className="font-bold">mães do Brasil inteiro</span>
             <br />
-            inteiro estão falando:
+            estão falando:
           </h2>
         </div>
         <div className="mx-auto max-w-5xl py-12">
