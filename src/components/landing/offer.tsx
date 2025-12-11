@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import { CheckCircle2, Hourglass } from "lucide-react";
 
 export function Offer() {
   return (
@@ -8,11 +9,10 @@ export function Offer() {
         <div className="mx-auto max-w-2xl">
           <Card className="overflow-hidden rounded-2xl border-2 border-primary shadow-2xl shadow-primary/20">
             <div className="bg-primary p-6 text-center text-primary-foreground">
-              <h2 className="text-3xl font-bold">
-                BabyFood® App
-              </h2>
+              <h2 className="text-3xl font-bold">BabyFood® App</h2>
               <p className="mt-2 text-lg">
-                A <span className="font-bold">introdução alimentar</span> do seu bebê na palma da sua mão 📱
+                A <span className="font-bold">introdução alimentar</span> do
+                seu bebê na palma da sua mão 📱
               </p>
             </div>
 
@@ -26,9 +26,15 @@ export function Offer() {
                 <p className="text-base font-bold text-foreground">
                   ou R$ 47,00 à vista por ano.
                 </p>
-                <div className="mt-4 flex flex-col items-start gap-1 text-sm font-bold">
-                  <span>✅ +50.637 mães usam diariamente</span>
-                  <span>⏳ Últimas vagas com desconto</span>
+                <div className="mt-4 flex flex-col items-start gap-2 text-sm font-bold">
+                  <span className="flex items-center gap-2 text-foreground">
+                    <CheckCircle2 className="h-5 w-5 text-primary" />
+                    +50.637 mães usam diariamente
+                  </span>
+                  <span className="flex items-center gap-2 text-foreground">
+                    <Hourglass className="h-5 w-5 text-primary" />
+                    Últimas vagas com desconto
+                  </span>
                 </div>
               </div>
             </div>
