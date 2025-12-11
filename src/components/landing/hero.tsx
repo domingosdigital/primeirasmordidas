@@ -43,8 +43,10 @@ export function Hero() {
               >
                 Assinar agora por R$ 47,00/ano
               </Button>
-              <p className="text-sm font-bold text-muted-foreground">
-                Aprovado e recomendado por Nutricionistas de todo Brasil
+              <p className="text-sm text-muted-foreground">
+                Aprovado e recomendado por
+                <br />
+                Nutricionistas de todo Brasil
               </p>
             </div>
           </div>
