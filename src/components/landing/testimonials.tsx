@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
 import { Star } from "lucide-react";
@@ -7,8 +9,10 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
+  type CarouselApi,
 } from "@/components/ui/carousel";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
+import React from "react";
 
 const testimonials1 = [
   {
@@ -71,6 +75,33 @@ const testimonials2 = [
 ];
 
 export function Testimonials() {
+  const [api1, setApi1] = React.useState<CarouselApi>();
+  const [api2, setApi2] = React.useState<CarouselApi>();
+  const [scrollSnaps1, setScrollSnaps1] = React.useState<number[]>([]);
+  const [scrollSnaps2, setScrollSnaps2] = React.useState<number[]>([]);
+  const [selectedIndex1, setSelectedIndex1] = React.useState(0);
+  const [selectedIndex2, setSelectedIndex2] = React.useState(0);
+
+  React.useEffect(() => {
+    if (!api1) return;
+    setScrollSnaps1(api1.scrollSnapList());
+    const onSelect = () => setSelectedIndex1(api1.selectedScrollSnap());
+    api1.on("select", onSelect);
+    return () => {
+      api1.off("select", onSelect);
+    };
+  }, [api1]);
+
+  React.useEffect(() => {
+    if (!api2) return;
+    setScrollSnaps2(api2.scrollSnapList());
+    const onSelect = () => setSelectedIndex2(api2.selectedScrollSnap());
+    api2.on("select", onSelect);
+    return () => {
+      api2.off("select", onSelect);
+    };
+  }, [api2]);
+
   return (
     <section className="w-full pt-4 md:py-24">
       <div className="container mx-auto px-4 md:px-6">
@@ -83,6 +114,7 @@ export function Testimonials() {
         </div>
         <div className="mx-auto max-w-5xl pt-4 pb-8">
           <Carousel
+            setApi={setApi1}
             opts={{
               align: "start",
             }}
@@ -138,6 +170,7 @@ export function Testimonials() {
         </div>
         <div className="mx-auto max-w-5xl pt-0 pb-12">
           <Carousel
+            setApi={setApi2}
             opts={{
               align: "start",
             }}
@@ -190,6 +223,21 @@ export function Testimonials() {
             <CarouselPrevious className="hidden sm:flex" />
             <CarouselNext className="hidden sm:flex" />
           </Carousel>
+        </div>
+        <div className="flex flex-col items-center gap-4">
+          <p className="text-sm text-muted-foreground">Arraste para o lado</p>
+          <div className="flex gap-2">
+            {scrollSnaps2.map((_, index) => (
+              <button
+                key={index}
+                onClick={() => api2?.scrollTo(index)}
+                className={`h-2 w-2 rounded-full transition-colors ${
+                  index === selectedIndex2 ? "bg-primary" : "bg-primary/20"
+                }`}
+                aria-label={`Ir para o slide ${index + 1}`}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </section>
