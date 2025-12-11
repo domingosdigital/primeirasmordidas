@@ -225,7 +225,6 @@ export function Testimonials() {
           </Carousel>
         </div>
         <div className="flex flex-col items-center gap-4">
-          <p className="text-sm text-muted-foreground">Arraste para o lado</p>
           <div className="flex gap-2">
             {scrollSnaps2.map((_, index) => (
               <button
@@ -238,6 +237,7 @@ export function Testimonials() {
               />
             ))}
           </div>
+          <p className="text-sm text-muted-foreground">Arraste para o lado</p>
         </div>
       </div>
     </section>
