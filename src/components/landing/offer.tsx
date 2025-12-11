@@ -26,7 +26,7 @@ export function Offer() {
                 <p className="text-base font-bold text-foreground">
                   ou R$ 47,00 à vista por ano.
                 </p>
-                <div className="mt-4 flex flex-col items-start gap-1 text-xs font-bold">
+                <div className="mt-4 flex flex-col items-start gap-1 text-sm font-bold">
                   <span>✅ +50.637 mães usam diariamente</span>
                   <span>⏳ Últimas vagas com desconto</span>
                 </div>
