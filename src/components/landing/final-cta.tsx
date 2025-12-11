@@ -11,8 +11,7 @@ export function FinalCTA() {
           <br />e <span className="font-bold">tranquilidade.</span>
         </h2>
         <p className="max-w-[600px] text-muted-foreground">
-          A fase mais importante da alimentação do seu bebê merece carinho,
-          segurança e clareza.
+          © 2025 BabyFood® | Todos os direitos reservados.
         </p>
       </div>
     </section>
