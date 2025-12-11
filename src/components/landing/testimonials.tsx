@@ -47,6 +47,30 @@ const testimonials = [
     location: "Porto Alegre - RS",
     text: "A diferença do reflexo de GAG para o engasgo não estava clara para mim. O app explicou de um jeito tão simples que perdi o medo. Recomendo de olhos fechados.",
   },
+  {
+    id: "testimonial-mariana",
+    name: "Mariana C.",
+    location: "Brasília - DF",
+    text: "Ver meu filho experimentar novos sabores sem choro é uma vitória diária. O app me deu a confiança que faltava para apresentar os alimentos de um jeito divertido. Chorava de frustração, hoje choro de alegria.",
+  },
+  {
+    id: "testimonial-bruna",
+    name: "Bruna A.",
+    location: "Recife - PE",
+    text: "Voltar a trabalhar foi um caos, e a culpa me consumia. Com o app, deixo tudo organizado pro meu marido e pra babá. Saber que meu filho está se alimentando bem, mesmo longe de mim, não tem preço.",
+  },
+  {
+    id: "testimonial-renata",
+    name: "Renata G.",
+    location: "Fortaleza - CE",
+    text: "Me sentia tão sozinha e julgada. A comunidade do app é um abraço quentinho. Trocamos dicas, medos... Hoje sei que não sou a única a passar por isso. É uma rede de apoio que toda mãe merece.",
+  },
+  {
+    id: "testimonial-carolina",
+    name: "Carolina V.",
+    location: "Manaus - AM",
+    text: "Meu bebê tinha restrições alimentares e eu estava apavorada. O app tem receitas específicas e dicas que me ajudaram a adaptar tudo com segurança. Foi um alívio enorme encontrar essa ajuda.",
+  },
 ];
 
 export function Testimonials() {
