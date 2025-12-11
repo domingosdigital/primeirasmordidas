@@ -8,6 +8,7 @@ import {
   ShieldCheck,
   Star,
   Stethoscope,
+  BrainCircuit,
 } from "lucide-react";
 import type { LucideProps } from "lucide-react";
 import React from "react";
@@ -68,6 +69,16 @@ const features = [
       </span>
     ),
     description: "Saiba quais são os exames importantes nesta fase.",
+  },
+  {
+    icon: (props: LucideProps) => <BrainCircuit {...props} />,
+    title: (
+      <span className="flex items-center gap-2">
+        Nutri IA <Badge variant="secondary">Em construção</Badge>
+      </span>
+    ),
+    description:
+      "Tire suas dúvidas sobre alimentação com nossa inteligência artificial.",
   },
 ];
 
