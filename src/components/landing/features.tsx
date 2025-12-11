@@ -55,7 +55,7 @@ const features = [
   },
   {
     icon: (props: LucideProps) => <Stethoscope {...props} />,
-    title: "Exames Essenciais",
+    title: "(Função Bônus) Exames Essenciais",
     description: "Saiba quais são os exames importantes nesta fase.",
   },
 ];
