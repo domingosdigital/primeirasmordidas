@@ -60,7 +60,7 @@ export function Testimonials() {
             estão comentando:
           </h2>
         </div>
-        <div className="mx-auto max-w-5xl py-12">
+        <div className="mx-auto max-w-5xl pt-8 pb-12">
           <Carousel
             opts={{
               align: "start",
