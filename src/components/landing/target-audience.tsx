@@ -24,7 +24,7 @@ export function TargetAudience() {
               <div className="flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-primary/20">
                 <Check className="h-4 w-4 text-primary" />
               </div>
-              <span className="text-left font-bold text-base text-foreground">
+              <span className="text-left text-base text-foreground">
                 {item}
               </span>
             </div>
