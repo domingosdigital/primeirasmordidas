@@ -60,11 +60,6 @@ export function Hero() {
                   Plano anual por R$ 47,00
                 </Button>
               </div>
-              <p className="text-sm text-foreground">
-                Aprovado por mães
-                <br />
-                Recomendado por nutricionistas.
-              </p>
 
               <div className="mt-6 flex flex-col items-center gap-4 text-center">
                 {expert && (
@@ -81,11 +76,20 @@ export function Hero() {
                     Debora Valentin <br /> Nutricionista e mãe.
                   </p>
                   <p className="mt-4 text-base font-medium text-foreground">
-                    "Criei o app que eu gostaria de ter tido: um guia completo
-                    para uma introdução alimentar segura, prática e sem
-                    complicações."
+                    "Ao viver a ansiedade de não saber o que oferecer primeiro,
+                    transformei essa dor em um caminho claro e seguro — para que
+                    nenhuma mãe precise passar por isso sozinha. O BabyFood
+                    nasceu da minha própria insegurança e hoje compartilho ele
+                    com você para tornar essa fase mais leve, segura e cheia de
+                    boas descobertas. Que cada receitinha traga mais confiança e
+                    momentos especiais com seu bebê ❤️"
                   </p>
                 </div>
+                <p className="text-sm text-foreground">
+                  Aprovado por mães
+                  <br />
+                  Recomendado por nutricionistas.
+                </p>
                 <Image
                   src="https://i.imgur.com/oAT3Thv.png"
                   alt="Selo de aprovação"
