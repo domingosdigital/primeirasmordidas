@@ -4,6 +4,7 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Star } from "lucide-react";
 
 export function Hero() {
   const handleClick = () => {
@@ -27,15 +28,10 @@ export function Hero() {
               <br />e <span className="font-bold">sem enrolação!</span>
             </h1>
             <div className="space-y-4">
-              <p className="mx-auto max-w-[600px] text-muted-foreground md:text-base">
-                <span className="text-foreground">
-                  Receitas rápidas, cardápios saudáveis e orientações seguras
-                </span>{" "}
-                -{" "}
-                <span className="font-bold text-foreground">
-                  tudo reunido em um Aplicativo para deixar sua rotina mais leve
-                  e organizada.
-                </span>
+              <p className="mx-auto max-w-[600px] text-base text-foreground">
+                Receitas rápidas, cardápios saudáveis e orientações seguras -{" "}
+                tudo reunido em um Aplicativo para deixar sua rotina mais leve e
+                organizada.
               </p>
             </div>
             <div className="flex justify-center">
@@ -75,7 +71,7 @@ export function Hero() {
                   <p className="text-sm text-muted-foreground">
                     Debora Valentin <br /> Nutricionista e mãe.
                   </p>
-                  <p className="mt-4 text-foreground md:text-lg">
+                  <p className="mt-4 text-foreground text-lg">
                     "Ao viver a ansiedade de não saber o que oferecer primeiro,
                     transformei essa dor em um caminho claro e seguro — para que
                     nenhuma mãe precise passar por isso sozinha.
@@ -86,6 +82,11 @@ export function Hero() {
                     segura e cheia de boas descobertas. Que cada receitinha
                     traga mais confiança e momentos especiais com seu bebê ❤️"
                   </p>
+                </div>
+                <div className="flex items-center gap-0.5 text-yellow-400">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} className="h-5 w-5 fill-current" />
+                  ))}
                 </div>
                 <p className="text-sm text-foreground">
                   Aprovado por mães
