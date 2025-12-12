@@ -28,8 +28,7 @@ export function Hero() {
               <br />e <span className="font-bold">sem enrolação!</span>
             </h1>
             <div className="space-y-4">
-              <p className="mx-auto max-w-[600px] text-base font-medium text-foreground">
-                Receitas rápidas, cardápios saudáveis e orientações seguras -{" "}
+              <p className="mx-auto max-w-[600px] text-base text-foreground">
                 <span className="font-bold">
                   tudo reunido em um Aplicativo para deixar sua rotina mais leve
                   e organizada.
@@ -38,7 +37,7 @@ export function Hero() {
             </div>
             <div className="flex justify-center">
               <Image
-                src="https://i.imgur.com/8v8LRs9.gif"
+                src="https://i.imgur.com/ljcMwKU.gif"
                 alt="Demonstração do app BabyFood®"
                 width={720}
                 height={405}
@@ -59,9 +58,9 @@ export function Hero() {
                 </Button>
               </div>
 
-              <div className="mt-6 flex flex-col items-center gap-4 text-center border p-6 rounded-2xl max-w-lg">
+              <div className="mt-6 flex flex-col items-center gap-4 text-center border p-6 rounded-2xl max-w-xl">
                 {expert && (
-                  <Avatar className="h-24 w-24 border-4 border-primary">
+                  <Avatar className="h-28 w-28 border-4 border-primary">
                     <AvatarImage
                       src={expert.imageUrl}
                       alt={expert.description}
@@ -76,13 +75,11 @@ export function Hero() {
                   <p className="mt-4 text-foreground text-base">
                     Ao viver a ansiedade de não saber o que oferecer primeiro,
                     transformei essa dor em um caminho claro e seguro — para que
-                    nenhuma mãe precise passar por isso sozinha.
-                    <br />
-                    <br />
-                    O BabyFood nasceu da minha própria insegurança e hoje
-                    compartilho ele com você para tornar essa fase mais leve,
-                    segura e cheia de boas descobertas. Que cada receitinha
-                    traga mais confiança e momentos especiais com seu bebê ❤️
+                    nenhuma mãe precise passar por isso sozinha. O BabyFood
+                    nasceu da minha própria insegurança e hoje compartilho ele
+                    com você para tornar essa fase mais leve, segura e cheia de
+                    boas descobertas. Que cada receitinha traga mais confiança
+                    e momentos especiais com seu bebê ❤️
                   </p>
                 </div>
                 <div className="flex items-center gap-0.5 text-yellow-400">
