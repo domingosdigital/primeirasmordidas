@@ -28,7 +28,7 @@ export function Hero() {
               <br />e <span className="font-bold">sem enrolação!</span>
             </h1>
             <div className="space-y-4">
-              <p className="mx-auto max-w-[600px] text-base text-foreground">
+              <p className="mx-auto max-w-[600px] text-base font-medium text-foreground">
                 Receitas rápidas, cardápios saudáveis e orientações seguras -{" "}
                 <span className="font-bold">
                   tudo reunido em um Aplicativo para deixar sua rotina mais leve
@@ -59,9 +59,9 @@ export function Hero() {
                 </Button>
               </div>
 
-              <div className="mt-6 flex flex-col items-center gap-4 text-center">
+              <div className="mt-6 flex flex-col items-center gap-4 text-center border p-6 rounded-2xl max-w-lg">
                 {expert && (
-                  <Avatar className="h-20 w-20 border-4 border-primary">
+                  <Avatar className="h-24 w-24 border-4 border-primary">
                     <AvatarImage
                       src={expert.imageUrl}
                       alt={expert.description}
@@ -70,11 +70,11 @@ export function Hero() {
                   </Avatar>
                 )}
                 <div className="max-w-md">
-                  <p className="text-sm text-muted-foreground">
+                  <p className="text-base text-muted-foreground">
                     Debora Valentin <br /> Nutricionista e mãe.
                   </p>
                   <p className="mt-4 text-foreground text-base">
-                    "Ao viver a ansiedade de não saber o que oferecer primeiro,
+                    Ao viver a ansiedade de não saber o que oferecer primeiro,
                     transformei essa dor em um caminho claro e seguro — para que
                     nenhuma mãe precise passar por isso sozinha.
                     <br />
@@ -82,7 +82,7 @@ export function Hero() {
                     O BabyFood nasceu da minha própria insegurança e hoje
                     compartilho ele com você para tornar essa fase mais leve,
                     segura e cheia de boas descobertas. Que cada receitinha
-                    traga mais confiança e momentos especiais com seu bebê ❤️"
+                    traga mais confiança e momentos especiais com seu bebê ❤️
                   </p>
                 </div>
                 <div className="flex items-center gap-0.5 text-yellow-400">
