@@ -70,7 +70,7 @@ export function Hero() {
                     <AvatarFallback>DV</AvatarFallback>
                   </Avatar>
                 )}
-                <div className="max-w-md">
+                <div>
                   <p className="text-base text-muted-foreground">
                     Debora Valentin <br /> Nutricionista e mãe.
                   </p>
