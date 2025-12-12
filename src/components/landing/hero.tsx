@@ -60,9 +60,9 @@ export function Hero() {
                 </Button>
               </div>
 
-              <div className="mt-6 flex flex-col items-center gap-4 text-center border p-8 rounded-2xl max-w-2xl">
+              <div className="mt-6 flex flex-col items-center gap-4 text-center border p-6 rounded-2xl max-w-lg">
                 {expert && (
-                  <Avatar className="h-20 w-20 border-4 border-primary">
+                  <Avatar className="h-16 w-16 border-4 border-primary">
                     <AvatarImage
                       src={expert.imageUrl}
                       alt={expert.description}
@@ -74,7 +74,7 @@ export function Hero() {
                   <p className="text-base text-muted-foreground">
                     Debora Valentin <br /> Nutricionista e mãe.
                   </p>
-                  <div className="mt-4 text-foreground text-base space-y-4 max-w-lg">
+                  <div className="mt-4 text-foreground text-base space-y-4 max-w-md">
                     <p>
                       Ao viver a ansiedade de não saber o que oferecer primeiro,
                       transformei essa dor em um caminho claro e seguro — para
@@ -88,11 +88,7 @@ export function Hero() {
                     </p>
                   </div>
                 </div>
-                <div className="flex items-center gap-0.5 text-yellow-400">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="h-5 w-5 fill-current" />
-                  ))}
-                </div>
+
                 <p className="text-sm text-foreground">
                   Aprovado por mães
                   <br />
