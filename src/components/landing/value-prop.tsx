@@ -33,42 +33,46 @@ export function ValueProp() {
             <br />é diferente?
           </h2>
         </div>
-        <Card className="mx-auto mt-8 max-w-5xl rounded-2xl border-2 border-primary shadow-lg shadow-primary/10">
-          <CardContent className="p-0">
-            <div className="grid md:grid-cols-2">
-              <div className="flex flex-col space-y-4 rounded-t-xl md:rounded-tr-none md:rounded-l-xl bg-destructive/5 p-8">
-                <h3 className="text-2xl font-bold text-center text-destructive">
-                  Sem o App BabyFood®
-                </h3>
-                <ul className="flex-1 space-y-4">
-                  {problems.map((item, index) => (
-                    <li key={index} className="flex items-start gap-4">
-                      <div className="flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-destructive/20">
-                        <X className="h-4 w-4 text-destructive" />
-                      </div>
-                      <span className="text-muted-foreground">{item}</span>
-                    </li>
-                  ))}
-                </ul>
+        <div className="mx-auto max-w-5xl">
+          <Card className="mt-8 rounded-2xl border-2 border-primary shadow-lg shadow-primary/10">
+            <CardContent className="p-0">
+              <div className="grid md:grid-cols-2">
+                <div className="flex flex-col space-y-4 rounded-t-xl md:rounded-tr-none md:rounded-l-xl bg-destructive/5 p-8">
+                  <h3 className="text-2xl font-bold text-center text-destructive">
+                    Sem o App BabyFood®
+                  </h3>
+                  <ul className="flex-1 space-y-4">
+                    {problems.map((item, index) => (
+                      <li key={index} className="flex items-start gap-4">
+                        <div className="flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-destructive/20">
+                          <X className="h-4 w-4 text-destructive" />
+                        </div>
+                        <span className="text-muted-foreground">{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+                <div className="flex flex-col space-y-4 rounded-b-xl md:rounded-bl-none md:rounded-r-xl bg-primary/5 p-8 md:border-l-2 md:border-primary">
+                  <h3 className="text-2xl font-bold text-center text-primary">
+                    Com o App BabyFood®
+                  </h3>
+                  <ul className="flex-1 space-y-4">
+                    {solutions.map((item, index) => (
+                      <li key={index} className="flex items-start gap-4">
+                        <div className="flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-primary/20">
+                          <Check className="h-4 w-4 text-primary" />
+                        </div>
+                        <span className="font-medium text-foreground">
+                          {item}
+                        </span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               </div>
-              <div className="flex flex-col space-y-4 rounded-b-xl md:rounded-bl-none md:rounded-r-xl bg-primary/5 p-8 md:border-l-2 md:border-primary">
-                <h3 className="text-2xl font-bold text-center text-primary">
-                  Com o App BabyFood®
-                </h3>
-                <ul className="flex-1 space-y-4">
-                  {solutions.map((item, index) => (
-                    <li key={index} className="flex items-start gap-4">
-                      <div className="flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-primary/20">
-                        <Check className="h-4 w-4 text-primary" />
-                      </div>
-                      <span className="font-medium text-foreground">{item}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-          </CardContent>
-        </Card>
+            </CardContent>
+          </Card>
+        </div>
       </div>
     </section>
   );
