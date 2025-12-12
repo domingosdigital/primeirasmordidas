@@ -28,9 +28,13 @@ export function Hero() {
               <br />e <span className="font-bold">sem enrolação!</span>
             </h1>
             <div className="space-y-4">
-              <p className="mx-auto max-w-[600px] text-base text-foreground font-bold">
-                tudo reunido em um Aplicativo para deixar sua rotina mais leve e
-                organizada.
+              <p className="mx-auto max-w-[600px] text-base text-foreground">
+                Receitas, cardápios, checklists, dicas e orientações -
+                <span className="font-bold">
+                  {" "}
+                  tudo reunido em um Aplicativo para deixar sua rotina mais leve
+                  e organizada.
+                </span>
               </p>
             </div>
             <div className="flex justify-center">
@@ -58,7 +62,7 @@ export function Hero() {
 
               <div className="mt-6 flex flex-col items-center gap-4 text-center border p-8 rounded-2xl max-w-2xl">
                 {expert && (
-                  <Avatar className="h-32 w-32 border-4 border-primary">
+                  <Avatar className="h-36 w-36 border-4 border-primary">
                     <AvatarImage
                       src={expert.imageUrl}
                       alt={expert.description}
