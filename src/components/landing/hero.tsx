@@ -61,7 +61,7 @@ export function Hero() {
 
               <div className="mt-6 flex flex-col items-center gap-4 text-center border p-4 pt-6 rounded-2xl max-w-lg">
                 {expert && (
-                  <Avatar className="h-20 w-20 border-4 border-primary">
+                  <Avatar className="h-24 w-24 border-4 border-primary">
                     <AvatarImage
                       src={expert.imageUrl}
                       alt={expert.description}
@@ -89,7 +89,7 @@ export function Hero() {
                 </div>
 
                 <p className="text-sm text-foreground">
-                  Aprovado por mães
+                  <span className="font-bold">Aprovado por mães</span>
                   <br />
                   Recomendado por nutricionistas.
                 </p>
