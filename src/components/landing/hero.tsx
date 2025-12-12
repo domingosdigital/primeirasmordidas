@@ -78,11 +78,16 @@ export function Hero() {
                   <p className="mt-4 text-base font-medium text-foreground">
                     "Ao viver a ansiedade de não saber o que oferecer primeiro,
                     transformei essa dor em um caminho claro e seguro — para que
-                    nenhuma mãe precise passar por isso sozinha. O BabyFood
-                    nasceu da minha própria insegurança e hoje compartilho ele
-                    com você para tornar essa fase mais leve, segura e cheia de
-                    boas descobertas. Que cada receitinha traga mais confiança e
-                    momentos especiais com seu bebê ❤️"
+                    nenhuma mãe precise passar por isso sozinha.
+                    <br />
+                    <br />
+                    O BabyFood nasceu da minha própria insegurança e hoje
+                    compartilho ele com você para tornar essa fase mais leve,
+                    segura e cheia de boas descobertas.
+                    <br />
+                    <br />
+                    Que cada receitinha traga mais confiança e momentos
+                    especiais com seu bebê ❤️"
                   </p>
                 </div>
                 <p className="text-sm text-foreground">
