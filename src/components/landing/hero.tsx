@@ -75,7 +75,7 @@ export function Hero() {
                   <p className="text-sm text-muted-foreground">
                     Debora Valentin <br /> Nutricionista e mãe.
                   </p>
-                  <p className="mt-4 text-base font-medium text-foreground">
+                  <p className="mt-4 text-foreground md:text-lg">
                     "Ao viver a ansiedade de não saber o que oferecer primeiro,
                     transformei essa dor em um caminho claro e seguro — para que
                     nenhuma mãe precise passar por isso sozinha.
