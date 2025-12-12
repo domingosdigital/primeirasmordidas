@@ -60,7 +60,7 @@ export function Hero() {
                 </Button>
               </div>
 
-              <div className="mt-6 flex flex-col items-center gap-4 text-center border p-8 rounded-2xl max-w-2xl">
+              <div className="mt-6 flex flex-col items-center gap-4 text-center border p-12 rounded-2xl max-w-2xl">
                 {expert && (
                   <Avatar className="h-36 w-36 border-4 border-primary">
                     <AvatarImage
