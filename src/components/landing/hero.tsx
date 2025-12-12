@@ -30,8 +30,10 @@ export function Hero() {
             <div className="space-y-4">
               <p className="mx-auto max-w-[600px] text-base text-foreground">
                 Receitas rápidas, cardápios saudáveis e orientações seguras -{" "}
-                tudo reunido em um Aplicativo para deixar sua rotina mais leve e
-                organizada.
+                <span className="font-bold">
+                  tudo reunido em um Aplicativo para deixar sua rotina mais leve
+                  e organizada.
+                </span>
               </p>
             </div>
             <div className="flex justify-center">
@@ -71,7 +73,7 @@ export function Hero() {
                   <p className="text-sm text-muted-foreground">
                     Debora Valentin <br /> Nutricionista e mãe.
                   </p>
-                  <p className="mt-4 text-foreground text-lg">
+                  <p className="mt-4 text-foreground text-base">
                     "Ao viver a ansiedade de não saber o que oferecer primeiro,
                     transformei essa dor em um caminho claro e seguro — para que
                     nenhuma mãe precise passar por isso sozinha.
