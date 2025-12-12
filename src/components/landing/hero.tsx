@@ -27,7 +27,7 @@ export function Hero() {
               <br />e <span className="font-bold">sem enrolação!</span>
             </h1>
             <div className="space-y-4">
-              <p className="mx-auto max-w-[600px] text-muted-foreground md:text-lg">
+              <p className="mx-auto max-w-[600px] text-muted-foreground md:text-base">
                 <span className="text-foreground">
                   Receitas rápidas, cardápios saudáveis e orientações seguras
                 </span>{" "}
@@ -75,7 +75,7 @@ export function Hero() {
                   <p className="text-sm text-muted-foreground">
                     Debora Valentin <br /> Nutricionista e mãe.
                   </p>
-                  <p className="mt-4 text-foreground md:text-lg italic">
+                  <p className="mt-4 text-foreground md:text-lg">
                     "Ao viver a ansiedade de não saber o que oferecer primeiro,
                     transformei essa dor em um caminho claro e seguro — para que
                     nenhuma mãe precise passar por isso sozinha.
