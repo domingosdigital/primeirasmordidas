@@ -2,6 +2,8 @@
 
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
+import { PlaceHolderImages } from "@/lib/placeholder-images";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 export function Hero() {
   const handleClick = () => {
@@ -10,6 +12,8 @@ export function Hero() {
       element.scrollIntoView({ behavior: "smooth", block: "start" });
     }
   };
+
+  const expert = PlaceHolderImages.find((img) => img.id === "expert-debora");
 
   return (
     <section className="w-full bg-card pt-8 md:pt-12 lg:pt-16 pb-8 md:pb-12">
@@ -69,6 +73,27 @@ export function Hero() {
                 className="mt-2"
                 data-ai-hint="approval seal"
               />
+              <div className="mt-6 flex flex-col items-center gap-4 text-center">
+                {expert && (
+                  <Avatar className="h-20 w-20 border-2 border-primary">
+                    <AvatarImage
+                      src={expert.imageUrl}
+                      alt={expert.description}
+                    />
+                    <AvatarFallback>DV</AvatarFallback>
+                  </Avatar>
+                )}
+                <div className="max-w-md">
+                  <p className="text-base font-medium text-foreground">
+                    "Criei o app que eu gostaria de ter tido: um guia completo
+                    para uma introdução alimentar segura, prática e sem
+                    complicações."
+                  </p>
+                  <p className="mt-2 text-sm text-muted-foreground">
+                    Debora Valentin - Nutricionista, mãe de 2
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

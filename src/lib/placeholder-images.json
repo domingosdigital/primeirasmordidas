@@ -59,6 +59,12 @@
       "description": "Circular profile picture of Laura B.",
       "imageUrl": "https://i.imgur.com/nhSyjIB.png",
       "imageHint": "woman portrait"
+    },
+    {
+      "id": "expert-debora",
+      "description": "Profile picture of Debora Valentin, nutritionist.",
+      "imageUrl": "https://i.imgur.com/TUhb0sP.png",
+      "imageHint": "woman portrait"
     }
   ]
 }
