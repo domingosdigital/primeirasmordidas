@@ -83,11 +83,8 @@ export function Hero() {
                     <br />
                     O BabyFood nasceu da minha própria insegurança e hoje
                     compartilho ele com você para tornar essa fase mais leve,
-                    segura e cheia de boas descobertas.
-                    <br />
-                    <br />
-                    Que cada receitinha traga mais confiança e momentos
-                    especiais com seu bebê ❤️"
+                    segura e cheia de boas descobertas. Que cada receitinha
+                    traga mais confiança e momentos especiais com seu bebê ❤️"
                   </p>
                 </div>
                 <p className="text-sm text-foreground">
