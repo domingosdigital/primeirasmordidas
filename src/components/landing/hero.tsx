@@ -28,11 +28,9 @@ export function Hero() {
               <br />e <span className="font-bold">sem enrolação!</span>
             </h1>
             <div className="space-y-4">
-              <p className="mx-auto max-w-[600px] text-base text-foreground">
-                <span className="font-bold">
-                  tudo reunido em um Aplicativo para deixar sua rotina mais leve
-                  e organizada.
-                </span>
+              <p className="mx-auto max-w-[600px] text-base text-foreground font-bold">
+                tudo reunido em um Aplicativo para deixar sua rotina mais leve e
+                organizada.
               </p>
             </div>
             <div className="flex justify-center">
@@ -58,9 +56,9 @@ export function Hero() {
                 </Button>
               </div>
 
-              <div className="mt-6 flex flex-col items-center gap-4 text-center border p-6 rounded-2xl max-w-xl">
+              <div className="mt-6 flex flex-col items-center gap-4 text-center border p-8 rounded-2xl max-w-2xl">
                 {expert && (
-                  <Avatar className="h-28 w-28 border-4 border-primary">
+                  <Avatar className="h-32 w-32 border-4 border-primary">
                     <AvatarImage
                       src={expert.imageUrl}
                       alt={expert.description}
@@ -72,15 +70,19 @@ export function Hero() {
                   <p className="text-base text-muted-foreground">
                     Debora Valentin <br /> Nutricionista e mãe.
                   </p>
-                  <p className="mt-4 text-foreground text-base">
-                    Ao viver a ansiedade de não saber o que oferecer primeiro,
-                    transformei essa dor em um caminho claro e seguro — para que
-                    nenhuma mãe precise passar por isso sozinha. O BabyFood
-                    nasceu da minha própria insegurança e hoje compartilho ele
-                    com você para tornar essa fase mais leve, segura e cheia de
-                    boas descobertas. Que cada receitinha traga mais confiança
-                    e momentos especiais com seu bebê ❤️
-                  </p>
+                  <div className="mt-4 text-foreground text-lg space-y-4">
+                    <p>
+                      Ao viver a ansiedade de não saber o que oferecer primeiro,
+                      transformei essa dor em um caminho claro e seguro — para
+                      que nenhuma mãe precise passar por isso sozinha.
+                    </p>
+                    <p>
+                      O BabyFood nasceu da minha própria insegurança e hoje
+                      compartilho ele com você para tornar essa fase mais leve,
+                      segura e cheia de boas descobertas. Que cada receitinha
+                      traga mais confiança e momentos especiais com seu bebê ❤️
+                    </p>
+                  </div>
                 </div>
                 <div className="flex items-center gap-0.5 text-yellow-400">
                   {[...Array(5)].map((_, i) => (
