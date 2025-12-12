@@ -84,13 +84,13 @@ export function Hero() {
                   </Avatar>
                 )}
                 <div className="max-w-md">
-                  <p className="text-base font-medium text-foreground">
+                  <p className="text-sm text-muted-foreground">
+                    Debora Valentin <br /> Nutricionista e mãe.
+                  </p>
+                  <p className="mt-4 text-base font-medium text-foreground">
                     "Criei o app que eu gostaria de ter tido: um guia completo
                     para uma introdução alimentar segura, prática e sem
                     complicações."
-                  </p>
-                  <p className="mt-2 text-sm text-muted-foreground">
-                    Debora Valentin <br /> Nutricionista e mãe.
                   </p>
                 </div>
               </div>
