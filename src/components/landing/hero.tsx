@@ -75,7 +75,7 @@ export function Hero() {
               />
               <div className="mt-6 flex flex-col items-center gap-4 text-center">
                 {expert && (
-                  <Avatar className="h-20 w-20 border-2 border-primary">
+                  <Avatar className="h-20 w-20 border-4 border-primary">
                     <AvatarImage
                       src={expert.imageUrl}
                       alt={expert.description}
