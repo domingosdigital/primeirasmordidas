@@ -65,14 +65,7 @@ export function Hero() {
                 <br />
                 Recomendado por nutricionistas.
               </p>
-              <Image
-                src="https://i.imgur.com/oAT3Thv.png"
-                alt="Selo de aprovação"
-                width={150}
-                height={38}
-                className="mt-2"
-                data-ai-hint="approval seal"
-              />
+
               <div className="mt-6 flex flex-col items-center gap-4 text-center">
                 {expert && (
                   <Avatar className="h-20 w-20 border-4 border-primary">
@@ -93,6 +86,14 @@ export function Hero() {
                     complicações."
                   </p>
                 </div>
+                <Image
+                  src="https://i.imgur.com/oAT3Thv.png"
+                  alt="Selo de aprovação"
+                  width={150}
+                  height={38}
+                  className="mt-2"
+                  data-ai-hint="approval seal"
+                />
               </div>
             </div>
           </div>
