@@ -4,7 +4,6 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Star } from "lucide-react";
 
 export function Hero() {
   const handleClick = () => {
@@ -60,9 +59,9 @@ export function Hero() {
                 </Button>
               </div>
 
-              <div className="mt-6 flex flex-col items-center gap-4 text-center border p-6 rounded-2xl max-w-lg">
+              <div className="mt-6 flex flex-col items-center gap-4 text-center border p-4 pt-6 rounded-2xl max-w-lg">
                 {expert && (
-                  <Avatar className="h-16 w-16 border-4 border-primary">
+                  <Avatar className="h-20 w-20 border-4 border-primary">
                     <AvatarImage
                       src={expert.imageUrl}
                       alt={expert.description}
@@ -74,7 +73,7 @@ export function Hero() {
                   <p className="text-base text-muted-foreground">
                     Debora Valentin <br /> Nutricionista e mãe.
                   </p>
-                  <div className="mt-4 text-foreground text-base space-y-4 max-w-md">
+                  <div className="mt-4 text-foreground text-base space-y-2 max-w-md">
                     <p>
                       Ao viver a ansiedade de não saber o que oferecer primeiro,
                       transformei essa dor em um caminho claro e seguro — para
