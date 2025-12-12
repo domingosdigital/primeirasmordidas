@@ -90,7 +90,7 @@ export function Hero() {
                     complicações."
                   </p>
                   <p className="mt-2 text-sm text-muted-foreground">
-                    Debora Valentin <br /> Nutricionista, mãe de 2
+                    Debora Valentin <br /> Nutricionista e mãe.
                   </p>
                 </div>
               </div>
